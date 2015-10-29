@@ -1,0 +1,234 @@
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-block {
+    background-color: #16A56A;
+    width: 100%;
+    height: 45px;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    float: right;
+    margin-top: 7px;
+    margin-right: 17px;
+    transform: rotate(0deg);
+}
+.region-block {
+    position: absolute;
+    width:  100%;
+    margin-top: 14px;
+    background: white;
+    z-index: 2;
+    display: none;
+}
+.search-block {
+    height: 20px;
+    margin: 7px;
+    position: relative;
+}
+.icon-search {
+    background: url(../images/search-icon.png);
+    margin: 0;
+    padding: 0;
+    width: 13px;
+    height: 13px;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+}
+#search {
+    float: left;
+    padding-left: 18px;
+    width: 100%;
+    border-color: #16A56A;
+    border-style: solid;
+    border-width: 1px;
+}
+#search:focus {
+    outline-style: none;
+}
+.list-region {
+    height: 100%;
+}
+.region-item {
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    padding: 5px 0 7px 0;
+    padding-left: 8px;
+    font-family: Calibri;
+    font-size: 15px;
+}
+.region-item:hover {
+    background: #16A56A;
+    color: white;
+}
+.menu-block ul {
+    margin: 0 auto;
+
+    padding: 0;
+}
+.menu-block li {
+    float: left;
+    margin: 13px 0 14px 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+.menu-block .btn {
+    font-family: Calibri;
+    font-size: 15px;
+    margin: 0 25px 0 25px;
+    text-decoration: none;
+    /*color: white;*/
+}
+
+.btn {
+    color: white;
+}
+.btn-hover {
+    font-family: Calibri;
+    font-size: 15px;
+    margin: 0 25px 0 25px;
+    text-decoration: none;
+    color: #B8D9CB;
+}
+
+.menu-block .btn:hover {
+    color: #B8D9CB;
+}
+.submenu-item {
+    display: block;
+    text-decoration: none;
+}
+/*.submenu-item p:hover {
+    color: #B8D9CB;
+}*/
+.submenu-item:hover {
+    opacity: 0.7;
+}
+.drop-block {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+.trans-div {
+    opacity: 0.69;
+    background: #16a56a;
+    position: relative;
+    width: 100%;
+    height: 110px;
+}
+
+.link-block {
+    margin: 45px auto;
+    padding: 0;
+    position: relative;
+    top: -140px;
+    width: 810px;/*iphone*/
+    /*width: 650px; ipad*/
+    /*width: 410px; imac*/
+    /*width: 570px; macbook*/
+    /*width: 765px; smartphones*/
+    /*width: 915px; notebook*/
+    /*width: 530px; tablet*/
+}
+
+.label {
+    position: relative;
+    color: white;
+    font-family: Calibri;
+    font-size: 14px;
+    margin: 0 auto;
+
+    /*align-content: center;*/
+    /*align-self: center;*/
+    /*text-align: center;*/
+}
+
+.link-block li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+/*.link-img {
+    margin: 20px;
+    width: 60px;
+}
+.link-img img {
+    opacity: 0;
+}*/
+.iphone4 {
+    width: 18px;
+    margin: 19px 50px 9px 50px;
+}
+.iphone5 {
+    width: 18px;
+    margin: 15px 50px 9px 50px;
+}
+.iphone6 {
+    width: 21px;
+    margin: 11px 50px 9px 50px;
+}
+.ipad-air {
+    width: 35px;
+    margin: 3px 50px 8px 50px;
+}
+/*.ipad-mini {
+    width: 32px;
+    margin: 25px 50px 20px 50px;
+}*/
+.imac {
+    width: 53px;
+    margin: 10px 50px 8px 50px;
+}
+.imac-retina {
+    width: 67px;
+    margin: -1px 50px 9px 50px;
+}
+.macbook {
+    width: 57px;
+    margin: 32px 50px 20px 50px;
+}
+.macbook-air{
+    width: 62px;
+    margin: 20px 50px 9px 50px;
+}
+.macbook-pro {
+    width: 73px;
+    margin: 16px 50px 7px 50px;
+}
+.smartphones {
+    width: 21px;
+    margin: 11px 50px 9px 50px;  /*REPAIR!!!!*/
+}
+.notebook {
+    width: 78px;
+    margin: 5px 50px 8px 50px;
+}
+
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/calibri.ttf);
+}
+@font-face {
+    font-family: Calibri-light;
+    src: url(../fonts/calibril.ttf);
+}
+@font-face {
+    font-family: Calibri-italic;
+    src: url(../fonts/calibrii.ttf);
+}

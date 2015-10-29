@@ -1,0 +1,9420 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family:'Roboto', "Arial" , sans-serif;
+}
+.call-hunter {
+    width: 222px;
+    height: 58px;
+    position: fixed;
+    right: -222px;
+    z-index: 1;
+    /*opacity: 0.8;*/
+}
+.info-icon {
+    background: url(../images/freecall_5.png);
+    width: 58px;
+    height: 58px;
+    float: right;
+    top: -58px;
+    position: relative;
+}
+.info-icon:hover {
+    background: url(../images/freecall_4.png);
+}
+.info-plane {
+    background: url(../images/freecall_4_2.png);
+    display: block;
+    width: 169px;
+    height: 58px;
+    left: 232px;
+    position: relative;
+}
+.info-plane p {
+    color: black;
+    font-size: 17px;
+    margin: 0;
+    position: fixed;
+    color: #1B8339;
+}
+/*.call-hunter div {
+    margin: 0;
+    margin-left: 11px;
+    margin-top: 8px;
+}*/
+.page-line {
+    width: 946px;
+    margin: 0 auto;
+
+}
+.img-one {
+    background: url(../images/school-of-business_0.jpg);
+    /*-webkit-transition:-webkit-filter 0.2s ;*/
+    -webkit-filter: grayscale(100%);
+    background-size: cover;
+    height: 100%;
+    /*top: -100%;*/
+}
+.img-two {
+    background: url(../images/business-legal-advice-indus-relations_clm.jpg);
+    /*-webkit-transition:-webkit-filter 0.2s;*/
+    -webkit-filter: grayscale(100%);
+    background-size: cover;
+    height: 100%;
+}
+.img-three {
+    background: url(../images/Business-IT-Web-Hosting.jpg);
+    /*-webkit-transition:-webkit-filter 0.2s;*/
+    -webkit-filter: grayscale(100%);
+    background-size: cover;
+    height: 100%;
+}
+.img-four {
+    background: url(../images/business-legal-advice-indus-relations_clm.jpg);
+    /*-webkit-transition:-webkit-filter 0.2s;*/
+    -webkit-filter: grayscale(100%);
+    background-size: cover;
+    height: 100%;
+}
+.img-five {
+    background: url(../images/Business-IT-Web-Hosting.jpg);
+    /*-webkit-transition:-webkit-filter 0.2s;*/
+    -webkit-filter: grayscale(100%);
+    background-size: cover;
+    height: 100%;
+}
+
+.gray-filter {
+    -webkit-filter: grayscale(0%);
+}
+.trans {
+    position: relative;
+    height: 100%;
+    opacity: 0.2;
+    background: #9AFFBB;
+    top: -100%;
+}
+
+.onwind-img {
+    display: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.onwind-img h3 {
+    position: relative;
+    margin-top: -230px;
+
+}
+.onwind-img p {
+    position: relative;
+    padding: 0 50px 0 50px;
+}
+.onwind-img button {
+    position: relative;
+    top: -185px;
+    height: 30px;
+    width: 100px;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    /*margin-top: 0px;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+
+.main-navigation{
+  padding:0;
+  margin:0;
+
+  position:relative;
+
+  font-size:14px;
+  line-height:17px;
+  font-weight:400;
+  text-align:center;
+
+  list-style:none;
+
+  background:#16A56A;
+  color:#fff;
+}
+
+
+.main-navigation li{
+  padding: 14px 20px;
+
+  display:inline-block;
+  vertical-align:top;
+
+  cursor:pointer;
+}
+
+
+.main-navigation li:hover > .sub-navigation{
+  display:block;
+}
+
+
+.sub-navigation{
+  width:100%;
+  padding: 66px 0;
+  padding-bottom:0;
+
+  display:none;
+
+  text-align:center;
+
+  position:absolute;
+  bottom:-111px;
+  left:0;
+
+  background:#099a48;
+  opacity:0.7;
+
+  z-index:3;
+}
+
+
+.sub-navigation li{
+  display:inline-block;
+  vertical-align:top;
+
+  cursor:pointer;
+}
+
+
+.sub-navigation a{
+  padding: 66px 33px;
+  padding-bottom:0;
+
+  font-size:14px;
+  line-height:17px;
+  font-weight:300;
+  text-decoration:none;
+
+  color:#fff;
+}
+
+
+.sub-navigation-iphone li:nth-child(1) a,
+.sub-navigation-iphone li:nth-child(2) a,
+.sub-navigation-iphone li:nth-child(3) a{
+  background:url("../images/menu-sprite.png") no-repeat -104px -276px;
+}
+
+
+.sub-navigation-iphone li:nth-child(4) a,
+.sub-navigation-iphone li:nth-child(5) a{
+  background:url("../images/menu-sprite.png") no-repeat -200px -279px;
+}
+
+
+.sub-navigation-iphone li:nth-child(6) a{
+  background:url("../images/menu-sprite.png") no-repeat -302px -283px;
+}
+
+
+.sub-navigation-iphone li:nth-child(7) a{
+  background:url("../images/menu-sprite.png") no-repeat -287px -283px;
+}
+
+
+.sub-navigation-ipad li a{
+  background:url("../images/menu-sprite.png") no-repeat -275px -40px;
+}
+
+
+.sub-navigation-ipad li:nth-child(2) a{
+  background:url("../images/menu-sprite.png") no-repeat -280px -40px;
+}
+
+
+.sub-navigation-ipad li:nth-child(3) a,
+.sub-navigation-ipad li:nth-child(4) a{
+  background:url("../images/menu-sprite.png") no-repeat -270px -166px;
+}
+
+
+.sub-navigation-imac li:nth-child(1) a{
+  background:url("../images/menu-sprite.png") no-repeat -19px -27px;
+}
+
+
+.sub-navigation-imac li:nth-child(2) a{
+  padding: 66px 20px;
+  background: url("../images/menu-sprite.png") no-repeat -111px -38px;
+}
+
+
+.sub-navigation-macbook li:nth-child(1) a{
+  background: url("../images/menu-sprite.png") no-repeat -394px -15px;
+}
+
+
+.sub-navigation-macbook li:nth-child(2) a{
+  background: url("../images/menu-sprite.png") no-repeat -415px -248px;
+}
+
+
+.sub-navigation-smartphone li a{
+  background: url("../images/menu-sprite.png") no-repeat -310px -286px;
+}
+
+
+.sub-navigation-smartphone li:nth-child(2) a{
+  background: url("../images/menu-sprite.png") no-repeat -299px -286px;
+}
+
+
+.sub-navigation-smartphone li:nth-child(3) a{
+  background: url("../images/menu-sprite.png") no-repeat -315px -286px;
+}
+
+
+.sub-navigation-smartphone li:nth-child(4) a{
+  background: url("../images/menu-sprite.png") no-repeat -306px -286px;
+}
+
+
+.sub-navigation-smartphone li:nth-child(5) a{
+  background: url("../images/menu-sprite.png") no-repeat -309px -286px;
+}
+
+
+.sub-navigation-smartphone li:nth-child(6) a{
+  background: url("../images/menu-sprite.png") no-repeat -320px -286px;
+}
+
+
+.sub-navigation-laptop li a{ 
+  background: url("../images/menu-sprite.png") no-repeat -21px -419px;
+}
+
+
+.sub-navigation-laptop li:nth-child(2) a{ 
+  background: url("../images/menu-sprite.png") no-repeat -24px -419px;
+}
+
+
+.sub-navigation-laptop li:nth-child(3) a{ 
+  background: url("../images/menu-sprite.png") no-repeat -33px -419px;
+}
+
+
+.sub-navigation-laptop li:nth-child(4) a{ 
+  background: url("../images/menu-sprite.png") no-repeat -17px -419px;
+}
+
+
+.sub-navigation-laptop li:nth-child(5) a{ 
+  background: url("../images/menu-sprite.png") no-repeat -29px -419px;
+}
+
+
+.sub-navigation-tablet li a{
+  background: url("../images/menu-sprite.png") no-repeat -11px -171px;
+}
+
+
+.sub-navigation-tablet li:nth-child(2) a{
+  background: url("../images/menu-sprite.png") no-repeat -1px -171px;
+}
+
+
+.sub-navigation-tablet li:nth-child(3) a{
+  background: url("../images/menu-sprite.png") no-repeat -6px -171px;
+}
+
+
+.sub-navigation-tablet li:nth-child(4) a{
+  background: url("../images/menu-sprite.png") no-repeat 5px -171px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        /*КОНОПКИ НАВИГАЦИИ*/
+
+
+
+
+.second-navigation{
+    width:100%;
+    padding-left:5px;
+    margin-bottom:50px;
+
+    display:inline-block;
+    vertical-align:top;
+
+    font-family:"Robot", "Arial", sans-serif;
+    font-size:13px;
+    text-align:center;
+}
+
+
+.second-navigation a{
+    text-decoration:none;
+
+    color:#000;
+}
+
+
+.second-navigation-item{
+  margin-right:50px;
+
+  display:inline-block;
+  vertical-align:top;
+
+  text-decoration:none;
+  text-align:center;
+
+  color:#000;
+}
+
+
+                                                        /*ОТСТУПЫ МЕЖДУ КНОПКАМИ*/
+
+.second-navigation-item:nth-child(2){
+  margin-right:73px;
+}
+
+
+.second-navigation-item:nth-child(3){
+  margin-right:74px;
+}
+
+
+
+.second-navigation-item:nth-child(4){
+  margin-right: 85px;
+}
+
+
+.second-navigation-item:nth-child(5){
+  margin-right: 87px;
+}
+
+
+.second-navigation-item:last-child{
+  margin-right: 10px;
+}
+
+
+
+                                                        /*ИКОНКИ КНОПОК*/
+
+
+.second-navigation-image{
+    width:60px;
+    height:60px;
+    margin:0 auto;
+    margin-bottom:20px;
+
+    display:block;
+
+    background-image:url("../images/second-navigation/second-navigation-sprite.png");
+    background-repeat:no-repeat;
+    background-position:-10px -10px;
+}
+
+
+.second-navigation-image:hover{
+    background-position:-90px -10px;
+}
+
+
+.sign:hover + a{
+    background-position:-90px -10px;
+}
+
+
+
+
+
+.second-navigation-item:nth-child(2) .second-navigation-image{
+    background-position:-169px -10px;
+}
+
+
+.second-navigation-item:nth-child(2) .second-navigation-image:hover{
+    background-position:-10px -90px;
+}
+
+
+.second-navigation-item:nth-child(2) .sign:hover + a{
+    background-position:-10px -90px;
+}
+
+
+
+
+
+
+.second-navigation-item:nth-child(3) .second-navigation-image{
+    background-position:-89px -90px;
+}
+
+
+.second-navigation-item:nth-child(3) .second-navigation-image:hover{
+    background-position:-169px -90px;
+}
+
+
+.second-navigation-item:nth-child(3) .sign:hover + a{
+    background-position:-169px -90px;
+}
+
+
+
+
+
+
+.second-navigation-item:nth-child(4) .second-navigation-image{
+    background-position:-169px -169px;
+}
+
+
+.second-navigation-item:nth-child(4) .second-navigation-image:hover{
+    background-position:-10px -169px;
+}
+
+
+.second-navigation-item:nth-child(4) .sign:hover + a{
+    background-position:-10px -169px;
+}
+
+
+
+
+
+
+
+
+.second-navigation-item:nth-child(5) .second-navigation-image{
+    background-position:-249px -10px;
+}
+
+
+.second-navigation-item:nth-child(5) .second-navigation-image:hover{
+    background-position:-248px -90px;
+}
+
+
+.second-navigation-item:nth-child(5) .sign:hover + a{
+    background-position:-248px -90px;
+}
+
+
+
+
+
+
+
+
+
+.second-navigation-item:nth-child(6) .second-navigation-image{
+    background-position:-249px -169px;
+}
+
+
+.second-navigation-item:nth-child(6) .second-navigation-image:hover{
+    background-position:-10px -249px;
+}
+
+
+.second-navigation-item:nth-child(6) .sign:hover + a{
+    background-position:-10px -249px;
+}
+
+
+                                                        /*ТЕКСТ*/
+
+.sign{
+    position:relative;
+    top:94px;
+}
+
+
+.sign:hover{
+    color:#099a48;
+}
+
+.new-color{
+    color:#099a48 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Коллаж*/
+
+
+.clearfix::after{
+  content:"";
+
+  display:table;
+  clear:both;
+}
+
+
+
+.collage{
+ height:1280px;
+ width:950px;
+ margin:0 auto;
+}
+
+
+
+.collage-item{
+  display:block;
+}
+
+
+.collage-item:nth-of-type(1){
+  width:946px;
+  height:307px;
+
+  margin-bottom:17px;
+
+  position:relative;
+}
+
+
+.collage-item:nth-of-type(1) img:nth-of-type(1){
+   width:946px;
+  height:307px;
+
+  position:absolute;
+}
+
+
+.collage-item:nth-of-type(1) img:nth-of-type(2){
+ width:946px;
+  height:307px;
+
+  position:absolute;
+  top:0;
+  left:0;
+
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(1):hover img:nth-of-type(1){
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(1):hover img:nth-of-type(2){
+  opacity:1;
+}
+
+
+
+
+
+.collage-item:nth-of-type(2){
+  width:307px;
+  height:946px;
+  margin-right:16px;
+
+  float:left;
+
+  position:relative;
+}
+
+
+.collage-item:nth-of-type(2) img:nth-of-type(1){
+ width:307px;
+  height:946px;
+
+  position:absolute;
+}
+
+
+.collage-item:nth-of-type(2) img:nth-of-type(2){
+ width:307px;
+  height:946px;
+
+  position:absolute;
+  top:0;
+  left:0;
+
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(2):hover img:nth-of-type(1){
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(2):hover img:nth-of-type(2){
+  opacity:1;
+}
+
+
+
+
+
+.collage-item:nth-of-type(3){
+  width:307px;
+  height:307px;
+
+  margin-right:10px;
+  margin-bottom:13px;
+
+  float:left;
+
+  position:relative;
+}
+
+
+.collage-item:nth-of-type(3) img:nth-of-type(1){
+ width:307px;
+  height:307px;
+
+  position:absolute;
+}
+
+
+.collage-item:nth-of-type(3) img:nth-of-type(2){
+ width:307px;
+  height:307px;
+
+  position:absolute;
+  top:0;
+  left:0;
+
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(3):hover img:nth-of-type(1){
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(3):hover img:nth-of-type(2){
+  opacity:1;
+}
+
+
+
+
+
+
+.collage-item:nth-of-type(4){
+  width:307px;
+  height:307px;
+  margin-bottom:13px;
+
+  float:left;
+
+  position:relative;
+}
+
+
+.collage-item:nth-of-type(4) img:nth-of-type(1){
+ width:307px;
+  height:307px;
+
+  position:absolute;
+}
+
+
+.collage-item:nth-of-type(4) img:nth-of-type(2){
+ width:307px;
+  height:307px;
+
+  position:absolute;
+  top:0;
+  left:0;
+
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(4):hover img:nth-of-type(1){
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(4):hover img:nth-of-type(2){
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+.collage-item:nth-of-type(5){
+  width:626px;
+  height:626px;
+
+  float:left;
+
+  position:relative;
+}
+
+
+.collage-item:nth-of-type(5) img:nth-of-type(1){
+ width:626px;
+  height:626px;
+
+  position:absolute;
+}
+
+
+.collage-item:nth-of-type(5) img:nth-of-type(2){
+ width:626px;
+  height:626px;
+
+  position:absolute;
+  top:0;
+  left:0;
+
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(5):hover img:nth-of-type(1){
+  opacity:0;
+}
+
+
+.collage-item:nth-of-type(5):hover img:nth-of-type(2){
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Отзывы*/
+
+
+.main-promo-title{
+  margin: 40px 0;
+  position:relative;
+  text-align:center;
+}
+
+
+.main-promo-title::before{
+  content:"";
+
+  width:553px;
+  height:1px;
+
+  display:block;
+
+  position:absolute;
+  top:39px;
+  left:197px;
+
+  background:#000;
+
+  z-index:1;
+
+  box-shadow: 13px 10px 2px #b5e1c8;
+}
+
+
+.main-promo-title h1{
+  padding:0 20px;
+
+  display:inline-block;
+  vertical-align:top;
+
+  position:relative;
+
+  font-weight:normal;
+
+  background:#fff;
+
+  z-index:2;
+}
+
+
+
+.main-promo-item{
+  width:281px;
+  padding:38px 20px;
+  margin-bottom:80px;
+
+  display:inline-block;
+  vertical-align:top;
+
+  position:relative;
+
+  background:rgba(255, 255, 255, 0.5);
+
+  box-shadow: rgba(0, 0, 0, 0.270588) 6px 6px 21px 3px;
+
+  z-index:2;
+}
+
+
+.main-promo-item{
+  margin-left: 206px;
+}
+
+
+.main-promo-item:nth-of-type(2){
+  margin-left:340px;
+}
+
+
+.main-promo-item p{
+  padding:0;
+  margin:0;
+
+  font-size:14px;
+  text-align:right;
+  font-weight: 300;
+}
+
+
+.main-promo-item p:first-of-type{
+  margin-bottom:9px;
+}
+
+
+.main-promo-item p:nth-of-type(2){
+  padding:2px 20px;
+  margin-bottom:38px;
+
+  font-size:17px;
+  font-style:italic;
+
+
+  background-color: rgb(184, 225, 184);
+}
+
+
+.main-promo-item p:nth-of-type(3){
+  margin-bottom:45px;
+}
+
+
+.main-promo-item p:last-of-type{
+  font-style:italic;
+}
+
+
+
+
+
+.main-promo-item + img{
+  width:271px;
+  height:271px;
+
+  position:relative;
+  top:23px;
+  left:-32%;
+
+  z-index:1;
+
+  animation:move-to-right 1s;
+  animation-fill-mode:both;
+}
+
+
+@keyframes move-to-right{
+  0% {
+    transform:translateX(0);
+  }
+  100% {
+    transform:translateX(220px);
+  }
+}
+
+
+.main-promo-item:nth-of-type(2) + img{
+  width:271px;
+  height:271px;
+
+  position:relative;
+  top:23px;
+  left:-32%;
+
+  z-index:1;
+
+  animation:move-to-left 1s;
+  animation-fill-mode:both;
+}
+
+
+@keyframes move-to-left{
+  0% {
+    transform:translateX(0);
+  }
+  100% {
+    transform:translateX(-220px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       /*ФОРМА*/
+
+.main-form{
+  width:657px;
+  padding:20px 0;
+  padding-bottom:16px;
+  padding-left:81px;
+  padding-right:84px;
+  margin:0 auto;
+  margin-bottom:100px;
+
+  position:relative;
+  
+  background-color:#e1e0e0; 
+
+  z-index:200; 
+}
+
+
+.main-form:before{
+  content:"";
+
+  width:873px;
+  height:65px;
+
+  position:absolute;
+  bottom: -41px;
+  left: -25px;
+
+  background:url("../images/form-shadow.png") no-repeat;
+}
+
+
+.main-form-decoration{
+  width:203px;
+  padding-top:81px;
+  padding-left:77px;
+
+  float:left;
+
+  font-weight:bold;
+
+  color:#099a48;
+}
+
+
+
+.main-form-decoration img{
+  position:absolute;
+  top: 107px;
+  left:81px;
+}
+
+
+.main-form-decoration div{
+  margin-bottom:-5px;
+
+  font-size:30px;
+  line-height:43px;
+}
+
+
+.main-form-decoration div:first-of-type span{
+  margin-left:55px;
+}
+
+
+.main-form-decoration div:nth-of-type(2) span{
+  margin-left:12px;
+}
+
+
+.main-form-decoration div:last-of-type{
+  margin-top:8px;
+  font-size:24px;
+  line-height:49px;
+}
+
+
+.main-form-decoration span{
+  font-size:48px;
+}
+
+
+.main-form form{
+  width:350px;
+  float:right;
+}                    
+
+
+.block-label{
+  margin-bottom:7px;
+
+  display:block;
+  
+  font-size:15px;
+
+  color:#000;
+}
+
+
+.block-label:last-of-type{
+  margin-bottom:4px;
+}
+
+
+.main-form input[type="text"]{
+  width:100%;
+  padding:9px 10px;
+
+  border:1px solid #000;
+  border-radius:3px;
+
+  box-sizing:border-box;
+}
+
+
+.main-form input[type="text"]:first-of-type{
+  margin-bottom:10px;
+}
+
+
+.main-form input[type="text"]:focus{
+  outline-color:#099a48;
+}
+
+
+
+
+
+
+
+.main-form-row input[type="radio"]{
+    display:none;
+}
+
+
+.main-form-row input[type="radio"]:checked + label:after{
+    display:block;
+}
+
+
+.main-form-row label{
+  margin-right:38px;
+  margin-left:40px;
+
+  position:relative;
+
+  font-size:18px;
+
+  color:#000;
+}
+
+
+.main-form-row label:first-of-type{
+  margin-right:19px;
+}
+
+
+.main-form-row label:before{
+    content:"";
+
+    width:14px;
+    height:14px;
+
+    position:absolute;
+    top:0;
+    left:-24px;
+
+    background:#fff;
+
+    border:2px solid black;
+    border-radius:50%;
+}
+
+
+
+.main-form-row label:after{
+    content: "";
+
+    width: 6px;
+    height: 6px;
+
+    display:none;
+
+    position: absolute;
+    top: 6px;
+    left: -18px;
+
+    background: #000;
+    border-radius: 50%;
+}
+
+
+
+.main-form-row:first-of-type{
+  margin-top:17px;
+  margin-bottom:18px;
+}
+
+
+.main-form select{
+  width:104px;
+  padding:4px 0;
+  margin-right:29px;
+  margin-bottom:10px;
+
+  display:inline-block;
+
+  border:1px solid #000;
+  border-radius:3px;
+
+  box-sizing:border-box;
+}
+
+
+.main-form select:nth-of-type(1){
+  margin-left:12px;
+}
+
+
+.main-form select:nth-of-type(3){
+  margin-left:7px;
+}
+
+
+.main-form select:nth-of-type(2n){
+  margin-right:0;
+  margin-left:7px;
+}
+
+
+.main-form select:focus{
+  outline-color:#099a48;
+}
+
+
+.form-row label{
+  font-size:14px;
+
+  color:#000;
+}
+
+
+.main-form-btn{
+  width:162px;
+  padding:3px 0;
+  padding-bottom: 5px;
+  margin-top:7px;
+  margin-left:96px;
+  display:inline-block;
+  font-family: 'Roboto', "Arial" , sans-serif;
+  font-size: 16px;
+  background:#099a48;
+  color:#fff;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+
+
+.clearfix:after{
+  content:"";
+
+  display:table;
+  clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Специалисты*/
+
+.main-title.mt-specialists{
+  padding-right:97px;
+  padding-left:70px;
+}
+
+
+.main-title.mt-specialists:before{
+  width:775px;
+  left:85px;
+}
+
+
+.main-title.mt-specialists h1{
+  padding-right:15px;
+  padding-left:15px;
+  margin-bottom:70px;
+
+  background:#fff;
+}
+
+
+.specialist{
+  padding:0;
+  margin:0;
+  margin-bottom:50px;
+}
+
+
+.specialist-photo{
+  width:299px;
+  margin-right:11px;
+  display:inline-block;
+  vertical-align:top;
+
+  position:relative;
+  left:310px;
+
+  animation:move-to-left 1s;
+  animation-fill-mode:both;
+}
+
+
+.specialist-photo img{
+  width:299px; 
+  height:299px;
+}
+
+
+.specialist-rating{
+  padding:0 70px;
+}
+
+
+.specialist-rating img{
+  width:127px; 
+  height:19px;
+
+  margin-left:14px;
+}
+
+
+.specialist-photo span{
+  margin: 10px 0;
+  display:block;
+  font-size:15px;
+}
+
+
+
+.specialist-card{
+  width:548px;
+  padding-top:15px;
+  padding-bottom:31px;
+  padding-right:27px;
+  padding-left:24px;
+
+  display:inline-block;
+  vertical-align:top;
+
+  position:relative;
+  right:149px;
+
+  background:rgba(255, 255, 255, 0.5);
+
+  box-shadow: 6px 6px 21px 3px rgba(0,0,0,0.27);
+
+  animation:move-to-right 1s;
+  animation-fill-mode:both;
+}
+
+
+.specialist-card h1{
+  padding:10px 19px;
+
+  font-size:26px;
+  font-weight:normal;
+
+  background:#c3e1c3;
+  color:#000;
+}
+
+
+.specialist-card-row{
+  margin-bottom:10px;
+}
+
+
+.specialist-card-row:last-of-type{
+  margin-bottom:0;
+}
+
+
+.specialist-title{
+  position:relative;
+
+  font-size:22px;
+  line-height:27px;
+
+
+  color:#099a48;
+}
+
+
+.specialist-title:after{
+  content:"";
+
+  width:57px;
+  height:1px;
+
+  position:absolute;
+  bottom:-5px;
+  left:0px;
+
+  background:#7f7f7f;
+}
+
+
+.specialist-card-row:nth-of-type(2) .specialist-title:after{
+  display:none;
+}
+
+
+.specialist-card-row:last-of-type .specialist-title:after{
+  top:0;
+}
+
+
+.specialist-description{
+  margin:0;
+  padding:0;
+
+  display:inline;
+
+  font-size:20px;
+  line-height:27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+collage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1265px;
+    background: white;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+collage > div > a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+.square-block {
+    width: 307px;
+    height: 307px;
+    position: relative;
+    background: #999999;
+}
+.vert-block {
+    width: 307px;
+    height: 946px;
+    position: relative;
+    background: #999999;
+}
+.hor-block {
+    width: 946px;
+    height: 307px;
+    position: relative;
+}
+
+.block-header {
+    margin: 0 146px;
+    text-align: center;
+    position: relative;
+    margin-top: 99px;
+    margin-bottom: 45px;
+}
+.header-line {
+    border-style: solid;
+    border: none;
+    background-color: #333333;
+    color: #333333;
+    height: 1px;
+    box-shadow: 13px 10px 2px #b5e1c8;
+}
+.text-block {
+    background: white;
+    margin: 0 auto;
+    display: block;
+    height: 63px;
+    top: -40px;
+    position: relative;
+}
+inmedia {
+    opacity: 0;
+}
+.feedback-container-left {
+    margin-left: 407px;
+    margin-right: 218px;
+    height: 321px;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+.feedback-container-right {
+    margin-left: 218px;
+    margin-right: 407px;
+    height: 321px;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+.feedback-img {
+    width: 271px;
+    height: 271px;
+    margin: 23px;
+    left: 0px;
+    right: 0px;
+    background: url(../images/feedback-photo.png);
+    position: relative;
+    display: inline-block;
+}
+.feedback-block {
+    height: 100%;
+    width: 100%;
+    background: white;
+    opacity: 0.8;
+    top: -100%;
+    position: relative;
+    box-shadow: 6px 6px 21px 3px rgba(0,0,0,0.27);
+
+    animation:go 2s;
+    animation-fill-mode:both;
+}
+
+
+
+.f-text, .quote-block, .f-quote, .f-author{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    float: right;
+    text-align: end;
+}
+.f-text {
+    margin-top: 38px;
+    margin-bottom: 9px;
+    text-indent: 30px;
+    font-size: 15px;
+}
+.quote-block {
+    background: #B8E1B8;
+}
+.up-text {
+    margin-top: 38px;
+    margin-bottom: 9px;
+}
+.down-text {
+    margin-top: 12px;
+}
+.f-quote {
+    font-size: 20px;
+}
+.f-author {
+    margin-top: 38px;
+    font-size: 15px;
+}
+.page-shadow {
+    width: 100%;
+    height: 3px;
+    background: white;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.35);
+}
+
+
+
+
+
+
+
+
+
+/*Футер*/
+
+
+
+.main-footer{
+  padding:30px 0;
+  background:#099a48;
+}
+
+
+.main-footer-social-list{
+  padding:0;
+  margin:0;
+  margin-bottom:42px;
+
+  text-align:center;
+
+  list-style:none;
+}
+
+
+.main-footer-social-list li{
+  margin:0 50px;
+
+  display:inline-block;
+  vertical-align:top;
+}
+
+
+.footer-social-btn{
+  width:64px;
+  height:64px;
+
+  display:block;
+
+  background:url("../images/social-icon-sprite.png") no-repeat;
+
+  border:2px solid #fff;
+  border-radius:50%;
+}
+
+
+.social-btn-vk{
+  background-position:-94px -178px;
+}
+
+
+.social-btn-vk:hover{
+  background-position:-262px -10px;
+}
+
+
+.social-btn-odnoklassniki{
+  background-position:-178px -94px;
+}
+
+
+.social-btn-odnoklassniki:hover{
+  background-position:-178px -10px;
+}
+
+
+.social-btn-fb{
+  background-position:-10px -94px;
+}
+
+
+.social-btn-fb:hover{
+  background-position:-10px -10px;
+}
+
+
+.social-btn-inst{
+  background-position:-94px -94px;
+}
+
+
+.social-btn-inst:hover{
+  background-position:-94px -10px;
+}
+
+
+.social-btn-twitter{
+  background-position:-10px -178px;
+}
+
+
+.social-btn-twitter:hover{
+  background-position:-178px -178px;
+}
+
+
+
+
+.main-footer-navigation{
+  padding:0;
+  margin:0;
+
+  font-size:14px;
+}
+
+
+.main-footer-navigation > li{
+  margin-right:24px;
+
+  display:inline-block;
+  vertical-align:top;
+
+  position:relative;
+
+  color:#fff;
+
+  cursor:pointer;
+}
+
+
+.main-footer-navigation > li:last-child{
+  margin-right:0;
+}
+
+
+.main-footer-navigation > li:before{
+  content:"";
+
+  width:100%;
+  height:1px;
+
+  position:absolute;
+  top:24px;
+  left:0;
+
+  background:#fff;
+}
+
+
+.main-footer-navigation a{
+  text-decoration:none;
+
+  color:#fff;
+}
+
+
+.main-footer-sub-navigation{
+  padding:0;
+  margin:0;
+  margin-top: 16px;
+
+  list-style:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*КАК МЫ РАБОТАЕМ*/
+
+.hww-banner{
+  height:471px;
+  margin:0 auto;
+
+  position:relative;
+
+  background:url("../images/banner_howwework.jpg");
+}
+
+
+.hww-banner h1{
+  margin-top: 56px;
+  margin-left:-18px;
+
+  float:left;
+
+  font-size:49px;
+  line-height:49px;
+  font-weight:normal;
+
+  color:#fff;
+}
+
+
+.hww-banner-contacts{
+  width:230px;
+  padding:90px 40px;
+  padding-right:30px;
+  padding-bottom:70px;
+  margin-right: 10px;
+
+  position:relative;
+
+  float:right;
+
+  background:rgba(255, 255, 255, 0.8);
+}
+
+
+.hww-contacts-row{
+  padding-left:53px;
+
+  position:relative;
+
+  font-family:"Roboto", "Arial", sans-serif;
+  font-size:20px;
+  line-height:25px;
+  font-weight:bold;
+
+  color:#139e4f;
+}
+
+
+.hww-contacts-row:nth-of-type(1){
+  margin-bottom:50px;
+}
+
+
+.hww-contacts-row:nth-of-type(1):before{
+  content:"";
+
+  width:46px;
+  height:46px;
+
+  position:absolute;
+  top: 5px;
+  left: -17px;
+
+  background:url("../images/hww-contacts-icon-1.png");
+}
+
+
+.hww-contacts-row:nth-of-type(2):before{
+  content:"";
+
+  width:46px;
+  height:46px;
+
+  position:absolute;
+  top: -11px;
+  left: -18px;
+
+  background:url("../images/hww-contacts-icon-2.png");
+}
+
+
+.hww-banner-decoration{
+  width:203px;
+  padding-top:20px;
+  padding-left:55px;
+
+
+
+  font-family:"Roboto", "Arial", sans-serif;
+  font-weight:bold;
+
+  color:#099a48;
+}
+
+
+.hww-banner-decoration:before{
+  content:"";
+
+  width:46px; 
+  height:130px;
+
+  position:absolute;
+  top: 267px;
+  left:22px;
+
+  background:url("../images/main-form-dec-2.png");
+}
+
+
+.hww-banner-decoration div{
+  margin-bottom:-5px;
+
+  font-size:30px;
+  line-height:43px;
+}
+
+
+.hww-banner-decoration div:first-of-type span{
+  margin-left:61px;
+}
+
+
+.hww-banner-decoration div:nth-of-type(2) span{
+  margin-left:22px;
+}
+
+
+.hww-banner-decoration div:last-of-type{
+  margin-top:8px;
+  font-size:24px;
+  line-height:49px;
+}
+
+
+.hww-banner-decoration span{
+  font-size:48px;
+}
+
+
+
+.hww-title-box{
+  text-align:center;
+}
+
+
+.hww-title{
+  margin:0;
+  padding:0;
+  margin-top: 45px;
+  margin-bottom:44px;
+
+  display:inline-block;
+  font-family:"Roboto", "Arial", sans-serif;
+  font-size:48px;
+  line-height:49px;
+  font-weight:normal;
+
+
+  color:#099a48;
+}
+
+
+.map{
+  height:471px;
+  position:relative;
+}
+
+
+.map-contacts{
+  width:249px;
+  padding:177px 40px;
+  padding-right:10px;
+  padding-bottom:179px;
+
+  position:absolute;
+  top: 0;
+  left:218px;
+
+  background:rgba(9, 154, 72, 0.8);
+}
+
+
+.map-contacts .hww-banner-contacts {
+  background:none;
+  color:#fff;
+}
+
+
+
+.map-contacts-row{
+  padding-left:22px;
+
+  position:relative;
+
+  font-family:"Roboto", "Arial", sans-serif;
+  font-size:22px;
+  line-height:25px;
+  font-weight:bold;
+
+  color:#fff;
+}
+
+
+.map-contacts-row:nth-of-type(1){
+  margin-bottom:18px;
+}
+
+
+.map-contacts-row:nth-of-type(2){
+  padding-left:22px;
+}
+
+
+.map-contacts-row:nth-of-type(1):before{
+  content:"";
+
+  width:28px;
+  height:28px;
+
+  position:absolute;
+  top: 5px;
+  left: -17px;
+
+  background:url("../images/map-contacts-icon-1.png");
+}
+
+
+.map-contacts-row:nth-of-type(2):before{
+  content:"";
+
+  width:28px;
+  height:28px;
+
+  position:absolute;
+  top:0;
+  left:-18px;
+
+  background:url("../images/map-contacts-icon-2.png");
+}
+
+
+.map-canvas{
+  width: 100%;
+  height: 471px;
+  background: #999;
+}
+
+
+
+.clearfix:after{
+  content:"";
+
+  display:table;
+  clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          /*Ð‘ÐÐÐ•Ð */
+.review-promo{
+  height:429px;
+  padding-top:20px;
+  margin-bottom:20px;
+
+  background:url("../images/banner_feedback.jpg") no-repeat center;
+}
+
+    /*Ð—ÐÐ“ÐžÐ›ÐžÐ’ÐžÐš Ð‘ÐÐÐ•Ð Ð*/
+.review-promo-title{
+  text-align:center;
+}
+
+
+.review-promo-title:before{
+  content:"";
+
+  width:146px;
+  height:2px;
+
+  position:absolute;
+  top:98px;
+  left:764px;
+
+  background:#405170;
+
+  opacity:0.5;
+}
+
+
+.review-promo-title:after{
+  content:"";
+
+  width:146px;
+  height:2px;
+
+  position:absolute;
+  top:98px;
+  left:437px;
+
+  background:#405170;
+
+  opacity:0.5;
+}
+
+
+.review-promo-title h1{
+  margin:0;
+  margin-bottom:104px;
+
+  position:relative;
+
+  font-size:49px;
+  line-height:49px;
+  font-weight:lighter;
+
+  color:#fff;
+}
+
+
+.review-promo-title h1:before{
+  content:"";
+
+  width:163px;
+  height:1px;
+
+  position:absolute;
+  top:25px;
+  left:218px;
+
+  background:#fff;
+}
+
+
+.review-promo-title h1:after{
+  content:"";
+
+  width:146px;
+  height:1px;
+
+  position:absolute;
+  top:25px;
+  left:564px;
+
+  background:#fff;
+}
+
+          /*Ð¢Ð•ÐšÐ¡Ð¢ Ð‘ÐÐÐ•Ð Ð*/
+
+.review-promo p{
+  font-size:49px;
+  line-height:49px;
+  font-weight:normal;
+
+  color:#fff;
+}
+
+
+
+
+/*форма отзывов*/
+
+.review-form{
+  margin-bottom: 36px;
+  position:relative;
+}
+
+
+.review-form::before{
+  content:"";
+
+  width:17px;
+  height:18px;
+
+  position:absolute;
+  top:82px;
+  left:62px;
+
+  background:url("../images/review-form-decor.png") no-repeat;
+}
+
+
+.review-form-row{
+  margin-left:78px;
+  margin-bottom:10px;
+}
+
+
+.review-form-row input{
+    float: left;
+    width: 189px;
+  padding:8px 10px;
+
+  background:#f5f5f5;
+
+  border:1px solid #93bba5;
+
+  box-sizing:border-box;
+}
+
+
+
+
+
+.reviewStars-input input:checked ~ label,
+.reviewStars-input label,
+.reviewStars-input label:hover,
+.reviewStars-input label:hover ~ label {
+    background: url('../images/stars-sprite.png') no-repeat;
+}
+
+.reviewStars-input {
+    overflow: hidden;
+    position: relative;
+    float: right;
+}
+
+.reviewStars-input input {
+    display:none;
+}
+
+.reviewStars-input input:checked ~ label {
+    background-position: -49px -10px;
+    height: 19px;
+    width: 19px;
+}
+
+.reviewStars-input label {
+    background-position: -10px -10px;
+    height: 19px;
+    width: 19px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.reviewStars-input label:hover, .reviewStars-input label:hover ~ label {
+    background-position: -49px -10px;
+}
+
+
+
+
+
+
+.review-form input:focus{
+  outline:none;
+}
+
+
+.review-form img{
+  position:absolute;
+  top:39px;
+  left:-15px;
+}
+
+
+.review-form textarea{
+  width:862px;
+  height:80px;
+  margin-left:78px;
+  margin-bottom:5px;
+
+  background:#f5f5f5;
+
+  border:1px solid #93bba5;
+}
+
+
+.review-form textarea:focus{
+  outline:none;
+}
+
+
+.review-form-title{
+  margin-bottom:15px;
+
+  font-size:20px;
+  line-height:24px;
+  font-weight:bold;
+}
+
+
+.review-form-button{
+  width:140px;
+  padding:6px 20px;
+  margin-left:806px;
+
+  display:inline-block;
+  vertical-align:top;
+
+  font-size:18px;
+  line-height:24px;
+  font-weight:normal;
+  text-decoration:none;
+
+  color:#fff;
+  background:#139e4f;
+
+  border:none;
+}
+
+
+
+
+
+
+          /*ÐšÐÐ Ð¢ÐžÐ§ÐšÐ ÐžÐ¢Ð—Ð«Ð’Ð*/
+
+.review-card{
+  padding:30px 0;
+  padding-top:35px;
+  padding-right:30px;
+
+  background-color:#f3f3f3;
+}
+
+
+.review-card:nth-child(2n){
+  padding-top:30px;
+  background:#fff;
+}
+
+
+.review-title{
+  position:relative;
+  padding-left:78px;
+}
+
+
+.review-icon{
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+
+.review-name{
+  display:inline-block;
+  vertical-align:top;
+
+  font-size:24px;
+  line-height:24px;
+}
+
+
+.review-name span{
+  font-size:20px;
+  line-height:24px;
+  color:#919090;
+}
+
+
+.review-rating{
+  font-size:20px;
+  line-height:38px;
+}
+
+
+.review-rating img{
+  margin-left:18px;
+}
+
+
+.review-card p{
+  padding:0;
+  padding-right:70px;
+  padding-left: 78px;
+  margin:9px 0;
+  font-size:20px;
+  line-height:24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*ÐÐ¾Ð²Ñ‹Ðµ ÑÑ‚Ð¸Ð»Ð¸*/
+
+    
+.vacancy-promo{
+  height:469px;
+
+  background: url("../images/banner_carrier.jpg") no-repeat center;
+  color:#fff;
+
+  border-top:1px solid transparent;
+}
+
+
+.vacancy-promo h1{
+  padding:0;
+  margin:0;
+  margin-top:160px;
+  margin-bottom:38px;
+
+  font-size:49px;
+  line-height:47px;
+  font-weight:normal;
+
+  color:#000;
+}
+
+
+.vacancy-promo p{
+  padding:0;
+  margin:0;
+
+  font-size:30px;
+  line-height:32px;
+  font-weight:lighter;
+}
+
+
+.main-title{
+  padding:0 184px;
+  padding-top:35px;
+  padding-right:225px;
+  margin-bottom:30px;
+  
+  position:relative;
+
+  text-align:center;
+}
+
+
+.main-title h1{
+  padding:0 15px;
+  margin:0 auto;
+
+  display:inline;
+
+  position:relative;
+
+  font-size:49px;
+  font-weight:normal;
+
+  background:#f6f6f6;
+  color:#000;
+
+  z-index:5;
+}
+
+
+.main-title:after{
+  content:"";
+
+  display:block;
+
+  position:relative;
+  top:-30px;
+
+  background:#000;
+
+  border-bottom:1px solid black;
+
+  z-index:1;
+}
+
+
+.main-title:before{
+    content:"";
+
+  width:530px;
+  height:2px;
+
+
+  position:absolute;
+  left:0;
+  top:75px;
+  left:200px;
+
+  background:#d5e9dd;
+
+  z-index:1;
+}
+
+
+.vacancy-list{
+  padding-bottom: 109px;
+  margin-left:-17px;
+
+  text-align:center;
+}
+
+
+.vacancy-list-item{
+  width:296px;
+  padding-bottom:20px;
+  margin-bottom:46px;
+  margin-left:17px;
+
+  display:inline-block;
+  vertical-align:top;
+
+  cursor:pointer;
+}
+
+
+.vacancy-list-item:hover{
+  background:#fff;
+  box-shadow: 6px 6px 21px 3px rgba(0,0,0,0.27);
+}
+
+
+.vacancy-list-item img{ 
+  width:296px;
+  height:201px;
+}
+
+
+.vacancy-list-item h1{
+  padding:0;
+  margin:0;
+
+  font-size:24px;
+  font-weight:normal;
+
+  color:#099a48;
+}
+
+
+.vacancy-list-item p{
+  padding:0 5px;
+
+  font-size:16px;
+}
+
+
+.button{
+  font-size:16px;
+  text-decoration:none;
+
+
+  background:#f6f6f6;
+  color:#099a48;
+  border-bottom:4px solid #099a48;
+  font-weight:bold;
+
+  /*background:#099a48;
+  color:#fff;
+
+  border-radius:3px;*/
+}
+
+
+.button:hover{
+  background:#099a48;
+  color:#fff;
+}
+
+
+.vacancy-btn{
+  width:186px;
+  padding:4px 0;
+  padding-bottom:5px;
+
+  display:inline-block;
+  vertical-align:top;
+}
+
+
+.vacancy-content{
+  background:#f6f6f6;
+}
+
+
+.vacancy-contacts{
+  background:#fff;
+}
+
+
+.vacancy-contacts-number,
+.vacancy-contacts-email{
+  width:600px;
+  margin:0 auto;
+}
+
+
+.vacancy-contacts-number p,
+.vacancy-contacts-email p{
+  margin:0 auto;
+  padding:0;
+
+  color:#099a48;
+  font-size:68px;
+}
+
+
+.vacancy-contacts-email p{
+  padding-left:45px;
+}
+
+
+.vacancy-contacts-title{
+  padding-left:180px;
+  margin:0 auto;
+
+  font-size:48px;
+  font-weight:normal;
+
+  color:#000;
+}
+
+
+
+
+
+.modal-content-vacancy{
+  width: 246px;
+  padding:10px 28px;
+  margin-left: 17px;
+
+  text-align: left;
+
+  background:#fff;
+
+  border:1px solid #099a48;
+}
+
+
+.modal-content-vacancy h1{
+  padding:0;
+  padding-bottom:12px;
+  margin:0;
+  margin-bottom:10px;
+
+  font-size:24px;
+  font-weight:normal;
+
+  color:#099a48;
+
+  border-bottom:1px solid #000;
+}
+
+
+.modal-vacancy-title{
+  padding:0;
+  margin:0;
+  margin-top:10px;
+
+
+  font-size:18px;
+  line-height:18px;
+
+  color:#099a48;
+}
+
+
+.modal-content-vacancy ul{
+  padding:0;
+  margin:0;
+
+  list-style:none;
+}
+
+
+.modal-content-vacancy li{
+  margin:0;
+  margin-bottom:4px;
+}
+
+
+
+
+
+
+
+.flip-container {
+  display:inline-block;
+  vertical-align:top;
+
+  perspective: 1000;
+}
+ 
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+ 
+.flip-container, .front, .back {
+  width: 320px;
+  height: 480px;
+}
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+ 
+  position: relative;
+}
+.front, .back {
+  backface-visibility: hidden;
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+}
+.back {
+  transform: rotateY(180deg);
+}
+
+
+
+.development{
+  margin:0;
+  padding:0;
+
+  background:url("../images/zaglushka.png") no-repeat 50% -200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+ ________ 
+|   ___  |
+|  |   | |
+|  |___| |
+|  ______| 
+| |          
+| |          
+|_|    
+
+
+
+
+
+
+
+ ___________
+|  _________|
+| |
+| |_________
+|  _________|
+| |
+| |_________
+|___________|     
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+.repair-title{
+  margin:0;
+  padding:0;
+  margin-top: 22px;
+
+  display:inline-block;
+
+  font-family: 'Roboto', sans-serif;
+  font-size:48px;
+  font-weight:100;
+  text-align:right;
+
+  color:#099a48;
+}
+
+
+
+
+
+
+
+
+
+/*Ремонт iphone*/
+
+
+
+/*Общие стили*/
+
+  
+.repair-iphone-content{
+  height:600px;
+  padding-top:2px;
+  text-align:center;
+  background:#eaeaea;
+}
+
+
+.iphone{
+  width:519px; 
+  height:453px;
+  margin-top:47px;
+
+  position:relative;
+
+  background-image:url("../images/iphone-sprite.png");
+  background-repeat:no-repeat;
+  background-position:-15px -441px;
+}
+
+
+/*Навигация*/
+
+
+
+/*Изменение состояния*/
+.content-navigation:hover{
+  font-weight:400;
+  color:#099a48;
+}
+
+
+.content-navigation:hover .nav-after,
+.content-navigation:hover .nav-before{
+  background:#099a48;
+
+  height:2px;
+}
+
+
+
+.nav-before,
+.nav-after{
+  z-index:1;
+}
+
+
+/*Точки*/
+
+.dot-active{
+  opacity:0;
+  z-index:2;
+}
+
+
+/*Составные части*/
+
+
+
+
+.iphone-content-navigation-camera{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+  top:35px;
+  left:-199px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-camera + img{
+  position:absolute;
+  top: 18px;
+    left: 35px;
+}
+
+.dot-active-1{
+  position:absolute;
+  top: 18px;
+    left: 35px;
+}
+
+
+.iphone-content-navigation-camera .nav-after{
+  width:207px;
+  height:1px;
+
+  position:absolute;
+  bottom:-4px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+
+.iphone-content-navigation-camera .nav-before{
+    width: 49px;
+    height: 1px;
+    position: absolute;
+    bottom: 14px;
+    left: 197px;
+    background: #b3b3b3;
+    transform: rotate(133deg);
+}
+
+
+/**/
+
+
+.iphone-content-navigation-battery{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+  top:100px;
+  left:-199px;
+
+  color:#000;
+}
+
+.iphone-content-navigation-battery + img{
+  position:absolute;
+      top: 117px;
+    left: 24px;
+}
+
+
+.dot-active-2{
+position:absolute;
+      top: 117px;
+    left: 24px;
+}
+
+
+
+.iphone-content-navigation-battery .nav-after{
+  width:227px;
+  height:1px;
+
+  position:absolute;
+  bottom:-1px;
+  left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/**/
+
+
+
+.iphone-content-navigation-cover{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top:143px;
+  left:-199px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-cover + img{
+  position:absolute;
+      top: 181px;
+    left: 110px;
+}
+
+
+.dot-active-3{
+position:absolute;
+      top: 181px;
+    left: 110px;
+}
+
+
+.iphone-content-navigation-cover .nav-after{
+  width:312px;
+  height:1px;
+
+  position:absolute;
+  bottom:0;
+  left:0;
+
+  background:#b3b3b3;
+}
+
+
+/**/
+
+
+.iphone-content-navigation-po{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top:205px;
+  left:-199px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-po + img{
+  position:absolute;
+  top: 246px;
+    left: 327px;
+}
+
+
+.dot-active-4{
+position:absolute;
+  top: 246px;
+    left: 327px;
+}
+
+
+.iphone-content-navigation-po .nav-after{
+  width:535px;
+  height:1px;
+
+  position:absolute;
+  bottom: -3px;
+    left: -2px;
+
+  background:#b3b3b3;
+}
+
+
+/**/
+
+
+.iphone-content-navigation-mic{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+  top:288px;
+  left:-199px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-mic + img{
+  position:absolute;
+      top: 438px;
+    left: 288px;
+}
+
+
+.dot-active-5{
+position:absolute;
+      top: 438px;
+    left: 288px;
+}
+
+
+.iphone-content-navigation-mic .nav-after{
+  width:366px;
+  height:1px;
+
+  position:absolute;
+  bottom: -3px;
+  left: -3px;
+
+  background:#b3b3b3;
+}
+
+
+.iphone-content-navigation-mic .nav-before{
+  content: "";
+    width: 187px;
+    height: 1px;
+    position: absolute;
+    bottom: -69px;
+    left: 334px;
+    background:#b3b3b3;
+    transform: rotate(225deg);
+}
+
+
+/**/
+
+
+.iphone-content-navigation-headphones{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top:331px;
+  left:-199px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-headphones + img{
+  position:absolute;
+      top: 438px;
+    left: 272px;
+}
+
+
+.dot-active-6{
+position:absolute;
+      top: 438px;
+    left: 272px;
+}
+
+
+.iphone-content-navigation-headphones .nav-after{
+  width:408px;
+  height:1px;
+
+  position:absolute;
+  bottom: -3px;
+  left: -3px;
+
+  background:#b3b3b3;
+}
+
+
+.iphone-content-navigation-headphones .nav-before{
+  content: "";
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    bottom: -36px;
+    left: 391px;
+    background: #b3b3b3;
+    transform: rotate(222deg);
+}
+
+
+/**/
+
+
+.iphone-content-navigation-power{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top:397px;
+  left:-199px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-power + img{
+  position:absolute;
+      top: 438px;
+    left: 324px;
+}
+
+
+.dot-active-7{
+position:absolute;
+      top: 438px;
+    left: 324px;
+}
+
+
+.iphone-content-navigation-power .nav-after{
+  width:533px;
+  height:1px;
+
+  position:absolute;
+  bottom: -3px;
+  left: -3px;
+
+  background:#b3b3b3;
+}
+
+
+/**/
+
+
+.iphone-content-navigation-silent{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+  top:14px;
+  right:-216px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-silent + img{
+  position:absolute;
+      top: 54px;
+    right: 3px;
+}
+
+
+.dot-active-8{
+position:absolute;
+      top: 54px;
+    right: 3px;
+}
+
+
+.iphone-content-navigation-silent .nav-after{
+  width:223px;
+  height:1px;
+
+  position:absolute;
+  bottom: -2px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+
+/**/
+
+
+.iphone-content-navigation-voice{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+  top: 78px;
+  right: -215px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-voice + img{
+  position:absolute;
+      top: 116px;
+    right: 3px;
+}
+
+
+.dot-active-9{
+ position:absolute;
+      top: 116px;
+    right: 3px;
+}
+
+
+.iphone-content-navigation-voice .nav-after{
+  width:223px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+/**/
+
+
+
+.iphone-content-navigation-water{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+  top: 136px;
+  right: -215px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-water + img{
+  position:absolute;
+      top: 174px;
+    right: 101px;
+
+    z-index:10;
+}
+
+
+.dot-active-14{
+ position:absolute;
+      top: 174px;
+    right: 101px;
+    z-index:11;
+}
+
+
+.iphone-content-navigation-water .nav-after{
+  width:320px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+.iphone-content-navigation-power-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+      top: 207px;
+    right: -210px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-power-btn + img{
+  position:absolute;
+  top: 108px;
+    right: 80px;
+}
+
+
+.dot-active-10{
+position:absolute;
+  top: 108px;
+    right: 80px;
+}
+
+
+.iphone-content-navigation-power-btn .nav-after{
+  width:241px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+
+.iphone-content-navigation-power-btn .nav-before{
+  content: "";
+    width: 148px;
+    height: 1px;
+    position: absolute;
+    top: -26px;
+    right: 194px;
+    background: #b3b3b3;
+    transform: rotate(248deg);
+}
+
+
+
+/**/
+
+
+.iphone-content-navigation-display{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+  top: 289px;
+    right: -212px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-display + img{
+  position:absolute;
+  top: 306px;
+    right: 109px;
+
+    z-index:2;
+}
+
+
+.dot-active-11{
+ position:absolute;
+  top: 306px;
+    right: 109px;
+}
+
+
+.iphone-content-navigation-display .nav-after{
+  width:324px;
+  height:1px;
+
+  position:absolute;
+  bottom: -1px;
+    right: 0px;
+
+  background:#b3b3b3;
+}
+
+
+/**/
+
+
+.iphone-content-navigation-home-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+  top: 352px;
+    right: -213px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-home-btn + img{
+  position:absolute;
+      top: 367px;
+    right: 174px;
+}
+
+
+.dot-active-12{
+position:absolute;
+      top: 367px;
+    right: 174px;
+}
+
+
+.iphone-content-navigation-home-btn .nav-after{
+  width:394px;
+  height:1px;
+
+  position:absolute;
+  bottom: 1px;
+    right:0;
+
+  background:#b3b3b3;
+}
+
+
+/**/
+
+
+.iphone-content-navigation-dynamic{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+  top: 420px;
+    right: -213px;
+
+  color:#000;
+}
+
+
+.iphone-content-navigation-dynamic + img{
+  position:absolute;
+      top: 437px;
+    right: 97px;
+}
+
+
+.dot-active-13{
+position:absolute;
+      top: 437px;
+    right: 97px;
+}
+
+
+
+.iphone-content-navigation-dynamic .nav-after{
+  width:317px;
+  height:1px;
+
+  position:absolute;
+  bottom: -1px;
+    right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+
+/*Блик*/
+
+.iphone-light{
+  width:130px; 
+  height:190px;
+
+  position:absolute;
+  top:4px;
+  left:312px;
+
+  z-index:500;
+}
+
+
+/*Вода*/
+
+.iphone-hover-water{
+  width:427px; 
+  height:389px;
+
+  position:absolute;
+  top:6px;
+  left:4px;
+
+  opacity:0;
+}
+
+
+.iphone-hover-water + img{
+  position:absolute;
+      top: 3px;
+    left: 8px;
+
+    opacity:0;
+
+    z-index:0;
+}
+
+
+
+
+  /*Крышка*/
+
+.iphone-hover-cover{
+  width:194px; 
+  height:396px;
+
+  position:absolute;
+  top:0;
+  left:0;
+
+  border-radius:30px;
+
+  z-index:2;
+}
+
+
+.iphone-hover-cover + img{
+  width:194px; 
+  height:396px;
+
+  position:absolute;
+  top:0;
+  left:0;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-cover:hover + img{
+  opacity:1;
+}
+
+
+  /*Батарея*/
+
+.iphone-hover-battery{
+  width: 118px;
+  height: 289px;
+  position: absolute;
+  top: 62px;
+  left: 14px;
+  z-index: 3;
+}
+
+
+.iphone-hover-battery + img{
+  width:168px; 
+  height:318px;
+
+  position:absolute;
+  top:47px;
+  left:0;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-battery:hover + img{
+  opacity:1;
+}
+
+
+
+/*Камера*/
+
+.iphone-hover-camera{
+    width: 55px;
+    height: 35px;
+    position: absolute;
+    top: 8px;
+    left: 26px;
+    z-index: 3;
+}
+
+
+.iphone-hover-camera + img{
+  width:60px; 
+  height:35px;
+
+  position:absolute;
+  top:6px;
+  left:23px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-camera:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+
+/*Дисплей*/
+
+.iphone-hover-display{
+    width: 192px;
+    height: 395px;
+    position: absolute;
+    top: 2px;
+    left: 241px;
+    z-index: 2;
+    border-radius: 30px;
+}
+
+
+.iphone-hover-display + img{
+  width:192px;
+  height:393px;
+
+  position:absolute;
+  top: 3px;
+  left: 241px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-display:hover + img{
+  opacity:1;
+}
+
+
+
+/*Кнопка включения*/
+
+.iphone-hover-power-btn{
+    width:17px;
+    height:47px;
+    position: absolute;
+    top:81px;
+    left:427px;
+    z-index: 3000;
+    border-radius: 30px;
+}
+
+
+.iphone-hover-power-btn + img{
+  width:22px;
+  height:47px;
+
+  position:absolute;
+  top:82px;
+  left:424px;
+
+  opacity:0;
+
+  z-index:2;
+}
+
+
+.iphone-hover-power-btn:hover + img{
+  opacity:1;
+}
+
+
+
+/*Кнопка home*/
+
+.iphone-hover-home-btn{
+    width:32px;
+    height:33px;
+    position: absolute;
+    top:355px;
+    left:321px;
+    z-index: 3;
+    border-radius: 30px;
+}
+
+
+.iphone-hover-home-btn + img{
+  width:32px;
+  height:33px;
+
+  position:absolute;
+  top:355px;
+  left:321px;
+
+  opacity:0;
+
+  z-index:2;
+}
+
+
+.iphone-hover-home-btn:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Динамики*/
+
+.iphone-hover-dynamics{
+    width:45px;
+    height:12px;
+    position: absolute;
+    top:437px;
+    left:364px;
+    z-index: 2;
+    border-radius: 30px;
+}
+
+
+.iphone-hover-dynamics + img{
+  width:45px;
+  height:12px;
+
+  position:absolute;
+  top:437px;
+  left:365px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-dynamics:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Наушники*/
+
+.iphone-hover-headphones{
+    width:27px;
+    height:28px;
+    position: absolute;
+    top:429px;
+    left:265px;
+    z-index: 2;
+    border-radius: 30px;
+
+    /*background:red;
+    opacity:0.5;*/
+}
+
+
+.iphone-hover-headphones + img{
+  width:27px;
+  height:28px;
+
+  position:absolute;
+  top:429px;
+  left:265px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-headphones:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Разъём зараядки*/
+
+.iphone-hover-charging-port{
+    width:37px;
+    height:24px;
+    position: absolute;
+    top:431px;
+    left:319px;
+    z-index: 2;
+    border-radius: 30px;
+
+    /*background:red;
+    opacity:0.5;*/
+}
+
+
+.iphone-hover-charging-port + img{
+  width:37px;
+  height:24px;
+
+  position:absolute;
+  top:431px;
+  left:319px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-charging-port:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Кнопка бесшумного режима*/
+
+.iphone-hover-silent-btn{
+    width:34px;
+    height:42px;
+    position: absolute;
+    top:37px;
+    left:491px;
+    z-index: 2;
+    border-radius: 30px;
+
+    /*background:red;
+    opacity:0.5;*/
+}
+
+
+.iphone-hover-silent-btn + img{
+  width:34px;
+  height:42px;
+
+  position:absolute;
+  top:37px;
+  left:491px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-silent-btn:hover + img{
+  opacity:1;
+}
+
+
+
+/*Кнопки звука*/
+
+.iphone-hover-voice-btns{
+    width: 14px;
+    height: 64px;
+    position: absolute;
+    top: 89px;
+    left: 502px;
+    z-index: 2;
+    border-radius: 30px;
+
+    /*background: red;
+    opacity: 0.5;*/
+}
+
+
+.iphone-hover-voice-btns + img{
+  width:9px;
+  height:64px;
+
+  position:absolute;
+  top:89px;
+  left:505px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-voice-btns:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Микрофон*/
+
+.iphone-hover-microphone{
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    top:434px;
+    left:285px;
+    z-index: 2;
+    border-radius: 30px;
+
+    /*background: red;
+    opacity: 0.5;*/
+}
+
+
+.iphone-hover-microphone + img{
+  width: 16px;
+  height: 17px;
+
+  position:absolute;
+  top:434px;
+  left:285px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.iphone-hover-microphone:hover + img{
+  opacity:1;
+}
+
+
+                /*ПО*/
+
+.iphone-hover-po{
+  display:none
+}
+
+
+
+.iphone-hover-po + img{
+  position:absolute;
+      top: 47px;
+    left: 246px;
+
+    opacity:0;
+
+    z-index:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ремонт ipad*/
+
+
+.repair-ipad-content{
+  height:540px;
+  padding-top:2px;
+  background:#eaeaea;
+
+  text-align:center;
+}
+
+
+.ipad{
+  width:521px;
+  height:341px;
+  margin-top: 34px;
+
+  position:relative;
+
+  background-image:url("../images/i-pad-main.png");
+  background-repeat:no-repeat;
+}
+
+
+
+/*Навигация*/
+
+
+/*Камера*/
+
+.ipad-content-navigation-camera{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+  top: 42px;
+    left: -196px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-camera + img{
+  position:absolute;
+     top: 16px;
+    left: 113px;
+}
+
+.dot-active-ipad-1{
+  position:absolute;
+      top: 16px;
+    left: 113px;
+}
+
+
+.ipad-content-navigation-camera .nav-after{
+  width:229px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+
+.ipad-content-navigation-camera .nav-before{
+    width: 98px;
+    height: 1px;
+    position: absolute;
+    bottom: 20px;
+    left: 222px;
+    background: #b3b3b3;
+    transform: rotate(153deg);
+}
+
+
+
+
+/*Кнопка Home*/
+
+.ipad-content-navigation-home-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+  top: 303px;
+    left: -196px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-home-btn + img{
+  position:absolute;
+     top: 321px;
+    left: 113px;
+}
+
+.dot-active-ipad-2{
+  position:absolute;
+      top: 321px;
+    left: 113px;
+}
+
+
+.ipad-content-navigation-home-btn .nav-after{
+  width:315px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Кнопка включения*/
+
+.ipad-content-navigation-power-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+      top: -39px;
+    left: -196px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-power-btn + img{
+  position:absolute;
+     top: 1px;
+    left: 268px;
+}
+
+.dot-active-ipad-3{
+  position:absolute;
+      top: 1px;
+    left: 268px;
+}
+
+
+.ipad-content-navigation-power-btn .nav-after{
+  width:471px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Вода*/
+
+.ipad-content-navigation-water{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top: 151px;
+  left: -198px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-water + img{
+  position:absolute;
+      top: 189px;
+    left: 124px;
+
+    z-index:10;
+}
+
+
+.dot-active-ipad-4{
+ position:absolute;
+      top: 189px;
+    left: 124px;
+    z-index:11;
+}
+
+
+.ipad-content-navigation-water .nav-after{
+  width:328px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+
+/*Кнопка переключения бесш. режима*/
+
+.ipad-content-navigation-silence-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+      top: -14px;
+    right: -202px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-silence-btn + img{
+  position:absolute;
+     top: 23px;
+    left: 512px;
+}
+
+.dot-active-ipad-5{
+  position:absolute;
+      top: 23px;
+    left: 512px;
+}
+
+
+.ipad-content-navigation-silence-btn .nav-after{
+  width:207px;
+  height:1px;
+
+  position:absolute;
+      bottom: 0px;
+    right: -2px;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Кнопки громкости*/
+
+.ipad-content-navigation-sound-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+      top: 47px;
+    right: -202px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-sound-btn + img{
+  position:absolute;
+     top: 47px;
+    left: 512px;
+}
+
+.dot-active-ipad-6{
+  position:absolute;
+      top: 47px;
+    left: 512px;
+}
+
+
+.ipad-content-navigation-sound-btn .nav-after{
+  width:177px;
+  height:1px;
+
+  position:absolute;
+      bottom: -1px;
+    right: -2px;
+
+  background:#b3b3b3;
+}
+
+
+.ipad-content-navigation-sound-btn .nav-before{
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    bottom: 18px;
+    right: 165px;
+    background: #b3b3b3;
+    transform: rotate(50deg);
+}
+
+
+
+
+/*Аккумулятор*/
+
+.ipad-content-navigation-battery{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+         top: 132px;
+    right: -201px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-battery + img{
+  position:absolute;
+         top: 149px;
+    left: 346px;
+}
+
+
+.dot-active-ipad-7{
+  position:absolute;
+          top: 149px;
+    left: 346px;
+}
+
+
+.ipad-content-navigation-battery .nav-after{
+  width:373px;
+  height:1px;
+
+  position:absolute;
+      bottom: -1px;
+    right: -2px;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Крышка*/
+
+.ipad-content-navigation-cover{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+         top: 172px;
+    right: -201px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-cover + img{
+  position:absolute;
+             top: 211px;
+    left: 446px;
+}
+
+
+.dot-active-ipad-8{
+  position:absolute;
+              top: 211px;
+    left: 446px;
+}
+
+
+.ipad-content-navigation-cover .nav-after{
+  width:271px;
+  height:1px;
+
+  position:absolute;
+      bottom: -1px;
+    right: -2px;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Порт зарядки*/
+
+.ipad-content-navigation-power-port{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+        top: 241px;
+    right: -202px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-power-port + img{
+  position:absolute;
+     top: 333px;
+    left: 370px;
+}
+
+
+.dot-active-ipad-9{
+    position:absolute;
+    top: 333px;
+    left: 370px;
+}
+
+
+.ipad-content-navigation-power-port .nav-after{
+  width:308px;
+  height:1px;
+
+  position:absolute;
+      bottom: -1px;
+    right: -2px;
+
+  background:#b3b3b3;
+}
+
+
+.ipad-content-navigation-power-port .nav-before{
+       width: 69px;
+    height: 1px;
+    position: absolute;
+    bottom: -28px;
+    right: 292px;
+    background: #b3b3b3;
+    transform: rotate(-52deg);
+}
+
+
+
+
+/*Дисплей*/
+
+.ipad-content-navigation-display{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+      top: 357px;
+    left: 27px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-display + img{
+  position:absolute;
+top: 274px;
+    left: 106px;
+}
+
+
+.dot-active-ipad-10{
+    position:absolute;
+    top: 274px;
+    left: 106px;
+}
+
+
+.ipad-content-navigation-display .nav-after{
+  width:86px;
+  height:1px;
+
+  position:absolute;
+          bottom: -1px;
+    left: -1px;
+
+  background:#b3b3b3;
+}
+
+
+.ipad-content-navigation-display .nav-before{
+    width: 119px;
+    height: 1px;
+    position: absolute;
+    bottom: 59px;
+    left: 25px;
+    background: #b3b3b3;
+    transform: rotate(-90deg);
+}
+
+
+
+
+/*Тачскрин*/
+
+.ipad-content-navigation-tochscreen{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+    top: 355px;
+    left: 225px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-tochscreen + img{
+  position:absolute;
+      top: 317px;
+    left: 218px;
+}
+
+
+.dot-active-ipad-11{
+    position:absolute;
+        top: 317px;
+    left: 218px;
+}
+
+
+.ipad-content-navigation-tochscreen .nav-after{
+  width:86px;
+  height:1px;
+
+  position:absolute;
+          bottom: -1px;
+    left: -1px;
+
+  background:#b3b3b3;
+}
+
+
+.ipad-content-navigation-tochscreen .nav-before{
+    width: 76px;
+    height: 1px;
+    position: absolute;
+        bottom: 37px;
+    left: -39px;
+    background: #b3b3b3;
+    transform: rotate(-90deg);
+}
+
+
+
+
+/*Динамики*/
+
+.ipad-content-navigation-dynamics{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top: 319px;
+    right: -203px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-dynamics + img{
+  position:absolute;
+      top: 336px;
+    right: 88px;
+}
+
+
+.dot-active-ipad-12{
+    position:absolute;
+      top: 336px;
+    right: 88px;
+}
+
+
+.ipad-content-navigation-dynamics .nav-after{
+  width:296px;
+  height:1px;
+
+  position:absolute;
+          bottom: -1px;
+    right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*ПО*/
+
+.ipad-content-navigation-po{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top: 234px;
+  left: -198px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-po + img{
+  position:absolute;
+      top: 250px;
+    left: 96px;
+
+    z-index:10;
+}
+
+
+.dot-active-ipad-13{
+ position:absolute;
+   top: 250px;
+    left: 96px;
+    z-index:11;
+}
+
+
+.ipad-content-navigation-po .nav-after{
+  width:300px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Наушники*/
+
+.ipad-content-navigation-headphones{
+  font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    top: 85px;
+    left: -196px;
+    color: #000;
+}
+
+
+.ipad-content-navigation-headphones + img{
+  position:absolute;
+       top: 1px;
+    right: 43px;
+}
+
+.dot-active-ipad-14{
+  position:absolute;
+       top: 1px;
+    right: 43px;
+}
+
+
+.ipad-content-navigation-headphones .nav-after{
+  width:500px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+
+.ipad-content-navigation-headphones .nav-before{
+    width: 208px;
+    height: 1px;
+    position: absolute;
+    bottom: 59px;
+    left: 478px;
+    background: #b3b3b3;
+    transform: rotate(144deg);
+}
+
+
+
+
+/*Диагностика*/
+
+.ipad-content-navigation-diagnosis{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+      top: 358px;
+    right: 2px;
+
+  color:#000;
+}
+
+
+.ipad-content-navigation-diagnosis + img{
+  position:absolute;
+      top: 284px;
+    right: 142px;
+
+    z-index:10;
+}
+
+
+.dot-active-ipad-15{
+ position:absolute;
+   top: 284px;
+    right: 142px;
+    z-index:11;
+}
+
+
+.ipad-content-navigation-diagnosis .nav-after{
+  width:155px;
+  height:1px;
+
+  position:absolute;
+  bottom: -2px;
+    right: -9px;
+
+  background:#b3b3b3;
+}
+
+
+.ipad-content-navigation-diagnosis .nav-before{
+        width: 113px;
+    height: 1px;
+    position: absolute;
+    bottom: 54px;
+    right: 89px;
+    background: #b3b3b3;
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Заменяемые части*/
+
+
+/*Камера*/
+
+.ipad-hover-camera{
+        width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    left: 258px;
+
+    z-index: 6;
+
+    border-radius: 10px;
+}
+
+
+.ipad-hover-camera2{
+  width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 14px;
+    left: 111px;
+    z-index: 7;
+    border-radius: 10px;
+}
+
+
+.ipad-hover-camera + img{
+  width:190px; 
+  height:38px;
+
+  position:absolute;
+      top: 3px;
+    left: 102px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-camera:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+
+/*Кнопка Home*/
+
+.ipad-hover-home-btn{
+        width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+    left: 104px;
+
+    z-index: 7;
+
+    border-radius: 10px;
+}
+
+
+
+.ipad-hover-home-btn + img{
+  width:16px; 
+  height:16px;
+
+  position:absolute;
+  top: 318px;
+    left: 112px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-home-btn:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Кнопка включения*/
+
+.ipad-hover-power-btn{
+        width:16px; 
+  height:8px;
+    position: absolute;
+    top: 3px;
+    left: 268px;
+
+    z-index: 4;
+
+    border-radius: 10px;
+}
+
+
+
+.ipad-hover-power-btn + img{
+  width:16px; 
+  height:4px;
+
+  position:absolute;
+  top: 6px;
+    left: 268px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-power-btn:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+/*Вода*/
+
+.ipad-hover-water{
+   width: 455px;
+    height: 312px;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.ipad-hover-water + img{
+  width: 455px;
+    height: 312px;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+
+
+/*Кнопка переключения бесш. режима*/
+
+
+.ipad-hover-silence-btn{
+        width:10px; 
+  height:8px;
+    position: absolute;
+    top: 25px;
+    right: -1px;
+
+    z-index: 4;
+
+    border-radius: 10px;
+}
+
+
+
+.ipad-hover-silence-btn + img{
+  width:5px; 
+  height:8px;
+
+  position:absolute;
+  top: 25px;
+    right: 1px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-silence-btn:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Кнопки громкости*/
+
+
+.ipad-hover-sound-btn{
+    width: 10px;
+    height: 35px;
+    position: absolute;
+    top: 35px;
+    right: -1px;
+    z-index: 4;
+    border-radius: 10px;
+}
+
+
+.ipad-hover-sound-btn2{
+    width: 10px;
+    height: 35px;
+    position: absolute;
+    top: 35px;
+    right: 258px;
+    z-index: 6;
+    border-radius: 10px;
+}
+
+
+
+.ipad-hover-sound-btn + img{
+  width:265px; 
+  height:35px;
+
+  position:absolute;
+  top: 35px;
+  right: 0px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-sound-btn:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Аккумулятор*/
+
+
+.ipad-hover-battery{
+    width:179px; 
+    height:267px;
+    position: absolute;
+        top: 39px;
+    right: 76px;
+    z-index: 4;
+    border-radius: 10px;
+}
+
+
+.ipad-hover-battery + img{
+  width:179px; 
+  height:267px;
+
+  position:absolute;
+      top: 39px;
+    right: 76px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-battery:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Крышка*/
+
+
+.ipad-hover-cover{
+        width: 236px;
+    height: 334px;
+    position: absolute;
+    top: 6px;
+    right: 27px;
+    z-index: 5;
+    border-radius: 10px;
+}
+
+
+.ipad-hover-cover + img{
+  width:236px; 
+  height:337px;
+
+  position:absolute;
+  top: 4px;
+  right: 29px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-cover:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Порт зарядки*/
+
+
+.ipad-hover-power-port{
+  width: 23px;
+    height: 14px;
+    position: absolute;
+    top: 331px;
+    right: 134px;
+    z-index: 7;
+    border-radius: 10px;
+}
+
+
+
+.ipad-hover-power-port + img{
+  width:23px; 
+  height:14px;
+
+  position:absolute;
+  top: 331px;
+    right: 134px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-power-port:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Порт зарядки*/
+
+
+.ipad-hover-display{
+    width: 208px;
+    height: 277px;
+    position: absolute;
+    top: 34px;
+    left: 16px;
+    z-index: 7;
+
+}
+
+
+
+.ipad-hover-display + img{
+  width: 208px;
+    height: 277px;
+
+  position:absolute;
+  top: 34px;
+    left: 16px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-display:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Тачскрин*/
+
+
+.ipad-hover-tochscreen{
+    width: 234px;
+    height: 332px;
+    position: absolute;
+       top: 7px;
+    left: 2px;
+    z-index: 6;
+
+}
+
+
+
+.ipad-hover-tochscreen + img{
+   width: 234px;
+    height: 332px;
+
+  position:absolute;
+      top: 7px;
+    left: 2px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-tochscreen:hover + img{
+  opacity:1;
+}
+
+
+
+/*Динамики*/
+
+
+.ipad-hover-dynamics{
+    width: 125px;
+    height: 18px;
+    position: absolute;
+       top: 332px;
+    right: 81px;
+    z-index: 6;
+
+}
+
+
+
+.ipad-hover-dynamics + img{
+   width: 125px;
+    height: 18px;
+
+  position:absolute;
+      top: 332px;
+    right: 81px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-dynamics:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+/*ПО*/
+
+.ipad-hover-po{
+   width: 207px;
+    height: 276px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.ipad-hover-po + img{
+  width: 207px;
+    height: 276px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Наушники*/
+
+
+.ipad-hover-headphones{
+  width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 1px;
+    left: 467px;
+    z-index: 6;
+    border-radius: 10px;
+
+}
+
+
+
+.ipad-hover-headphones + img{
+  width:35px; 
+  height:33px;
+
+  position:absolute;
+     top: -10px;
+    left: 455px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.ipad-hover-headphones:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Диагностика*/
+
+.ipad-hover-diagnosis{
+   width: 521px;
+    height: 341px;
+    position: absolute;
+        top: 0px;
+    left: 0px;
+
+  opacity:0;
+}
+
+
+.ipad-hover-diagnosis + img{
+  width: 521px;
+    height: 341px;
+    position: absolute;
+        top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ремонт ноутбука*/
+
+.repair-laptop-content{
+  height:540px;
+  padding-top:2px;
+  background:#eaeaea;
+
+  text-align:center;
+}
+
+
+
+.laptop{
+  width:525px;
+  height:387px;
+  margin-top:34px;
+
+  position:relative;
+
+  background-image:url("../images/laptop-main.png");
+  background-repeat:no-repeat;
+}
+
+
+
+/*Навигация*/
+
+
+/*Дисплей*/
+
+.laptop-content-navigation-display{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+       top: 78px;
+    left: -194px;
+
+  color:#000;
+}
+
+
+.laptop-content-navigation-display + img{
+  position:absolute;
+      top: 96px;
+    left: 105px;
+}
+
+.dot-active-laptop-1{
+  position:absolute;
+      top: 96px;
+    left: 105px;
+}
+
+
+.laptop-content-navigation-display .nav-after{
+  width:305px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Клавиатура*/
+
+.laptop-content-navigation-keyboard{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+       top: 158px;
+    right: -202px;
+
+  color:#000;
+}
+
+
+.laptop-content-navigation-keyboard + img{
+  position:absolute;
+  top: 256px;
+    right: 152px;
+}
+
+.dot-active-laptop-2{
+  position:absolute;
+top: 256px;
+    right: 152px;
+  }
+
+
+.laptop-content-navigation-keyboard .nav-after{
+  width:306px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:-1px;
+
+  background:#b3b3b3;
+}
+
+
+.laptop-content-navigation-keyboard .nav-before{
+    width: 98px;
+    height: 1px;
+    position: absolute;
+       bottom: -43px;
+    right: 283px;
+    background: #b3b3b3;
+    transform: rotate(125deg);
+}
+
+
+
+
+/*Корпус*/
+
+.laptop-content-navigation-body{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+     top: 154px;
+    left: -194px;
+
+  color:#000;
+}
+
+
+.laptop-content-navigation-body + img{
+  position:absolute;
+     top: 274px;
+    left: 131px;
+}
+
+
+.dot-active-laptop-3{
+  position:absolute;
+    top: 274px;
+    left: 131px;
+  }
+
+
+.laptop-content-navigation-body .nav-after{
+  width:215px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+.laptop-content-navigation-body .nav-before{
+    width: 155px;
+    height: 1px;
+    position: absolute;
+    bottom: -53px;
+    left: 194px;
+    background: #b3b3b3;
+    transform: rotate(41deg);
+}
+
+
+
+
+
+/*Аккумулятор*/
+
+.laptop-content-navigation-battery{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+         top: 83px;
+    right: -199px;
+
+  color:#000;
+}
+
+
+.laptop-content-navigation-battery + img{
+  position:absolute;
+           top: 229px;
+    right: 213px;
+}
+
+
+.dot-active-laptop-4{
+  position:absolute;
+    top: 229px;
+    right: 213px;
+  }
+
+
+.laptop-content-navigation-battery .nav-after{
+  width:312px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:-1px;
+
+  background:#b3b3b3;
+}
+
+
+.laptop-content-navigation-battery .nav-before{
+        width: 167px;
+    height: 1px;
+    position: absolute;
+    bottom: -66px;
+    right: 281px;
+    background: #b3b3b3;
+    transform: rotate(130deg);
+}
+
+
+
+
+
+/*Северный мост*/
+
+.laptop-content-navigation-nb{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+   top: 212px;
+    right: -199px;
+
+  color:#000;
+}
+
+
+.laptop-content-navigation-nb + img{
+  position:absolute;
+top: 282px;
+    right: 265px;
+}
+
+
+.dot-active-laptop-5{
+  position:absolute;
+   top: 282px;
+    right: 265px;
+  }
+
+
+.laptop-content-navigation-nb .nav-after{
+  width:386px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:-1px;
+
+  background:#b3b3b3;
+}
+
+
+.laptop-content-navigation-nb .nav-before{
+   width: 89px;
+    height: 1px;
+    position: absolute;
+    bottom: -17px;
+    right: 382px;
+    background: #b3b3b3;
+    transform: rotate(160deg);
+}
+
+
+
+/*Порт*/
+
+.laptop-content-navigation-port{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+     top: 384px;
+    left: -192px;
+
+  color:#000;
+}
+
+
+.laptop-content-navigation-port + img{
+  position:absolute;
+      top: 344px;
+    left: 99px;
+}
+
+
+.dot-active-laptop-6{
+  position:absolute;
+      top: 344px;
+    left: 99px;
+  }
+
+
+.laptop-content-navigation-port .nav-after{
+  width:212px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+.laptop-content-navigation-port .nav-before{
+     width: 102px;
+    height: 1px;
+    position: absolute;
+    bottom: 26px;
+    left: 202px;
+    background: #b3b3b3;
+    transform: rotate(146deg);
+}
+
+
+
+
+/*Чистка*/
+
+.laptop-content-navigation-clean{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+     top: 224px;
+    left: -193px;
+
+  color:#000;
+}
+
+
+.laptop-content-navigation-clean + img{
+  position:absolute;
+    top: 307px;
+    left: 72px;
+}
+
+
+.dot-active-laptop-8{
+  position:absolute;
+    top: 307px;
+    left: 72px;
+  }
+
+
+.laptop-content-navigation-clean .nav-after{
+  width:208px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+.laptop-content-navigation-clean .nav-before{
+       width: 89px;
+    height: 1px;
+    position: absolute;
+    bottom: -34px;
+    left: 193px;
+    background: #b3b3b3;
+    transform: rotate(46deg);
+}
+
+
+
+
+
+/*Зарядное*/
+
+
+.laptop-content-navigation-power-st{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+   top: 278px;
+    left: -194px;
+
+  color:#000;
+}
+
+
+
+
+/*Жесткий диск*/
+
+.laptop-content-navigation-hard-disk{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+    top: 287px;
+    right: -201px;
+
+  color:#000;
+}
+
+
+.laptop-content-navigation-hard-disk + img{
+  position:absolute;
+     top: 294px;
+    right: 63px;
+}
+
+
+.dot-active-laptop-9{
+  position:absolute;
+        top: 294px;
+    right: 63px;
+  }
+
+
+.laptop-content-navigation-hard-disk .nav-after{
+  width:205px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:-1px;
+
+  background:#b3b3b3;
+}
+
+
+.laptop-content-navigation-hard-disk .nav-before{
+     width: 75px;
+    height: 1px;
+    position: absolute;
+    bottom: 14px;
+    right: 199px;
+    background: #b3b3b3;
+    transform: rotate(206deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Заменяемые элементы*/
+
+
+
+
+/*Дисплей*/
+
+.laptop-hover-display{
+      width: 323px;
+    height: 186px;
+    position: absolute;
+    top: 34px;
+    left: 33px;
+    z-index: 8;
+
+    transform: rotate(-8deg);
+}
+
+
+
+.laptop-hover-display + img{
+  width:343px; 
+  height:224px;
+
+  position:absolute;
+         top: 19px;
+    left: 19px;
+    opacity: 0;
+    transform: rotate(0deg);
+}
+
+
+.laptop-hover-display:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Клавиатура*/
+
+.laptop-hover-keyboard{
+       width: 347px;
+    height: 66px;
+    position: absolute;
+        top: 254px;
+    left: 86px;
+    z-index: 8;
+    transform: rotate(-11deg);
+
+}
+
+
+
+.laptop-hover-keyboard + img{
+  width:383px; 
+  height:100px;
+
+  position:absolute;
+           top: 234px;
+    left: 69px;
+    opacity: 0;
+    
+}
+
+
+.laptop-hover-keyboard:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Корпус*/
+
+
+.laptop-hover-body2{
+   width: 393px;
+    height: 105px;
+    position: absolute;
+    top: 253px;
+    left: 93px;
+    z-index: 7;
+    transform: rotate(-12deg) skewX(32deg) skewY(0deg);
+}
+
+
+
+.laptop-hover-body{
+   width: 357px;
+    height: 241px;
+    position: absolute;
+    top: 18px;
+    left: 14px;
+    z-index: 6;
+    transform: rotate(0deg) skewX(9deg) skewY(-6deg);
+
+}
+
+
+
+.laptop-hover-body + img{
+       width: 525px;
+    height: 387px;
+
+  position:absolute;
+           top: 0px;
+    left: 0px;
+    opacity: 0;
+    
+}
+
+
+.laptop-hover-body:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Аккумулятор*/
+
+
+.laptop-hover-battery{
+   width: 289px;
+    height: 21px;
+    position: absolute;
+    top: 241px;
+    right: 163px;
+    z-index: 6;
+    transform: rotate(-10deg) skewX(0deg) skewY(0deg);
+
+
+}
+
+
+
+.laptop-hover-battery + img{
+ width: 289px;
+    height: 78px;
+
+  position:absolute;
+       top: 213px;
+    right: 161px;
+    opacity: 0;
+    
+}
+
+
+.laptop-hover-battery:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Северный мост*/
+
+.laptop-hover-nb{
+  width: 89px;
+    height: 40px;
+
+  position:absolute;
+  top: 89px;
+    left: 40px;
+
+
+  opacity:0;
+}
+
+
+.laptop-hover-nb + img{
+  width: 89px;
+    height: 40px;
+
+  position:absolute;
+          top: 264px;
+    left: 188px;
+
+    opacity:0;
+
+    z-index:0;
+}
+
+
+
+/*Порт*/
+
+
+.laptop-hover-port{
+  width: 14px;
+    height: 98px;
+    position: absolute;
+    top: 283px;
+    left: 75px;
+    z-index: 6;
+    transform: rotate(-44deg) skewX(0deg) skewY(0deg);
+
+
+}
+
+
+
+.laptop-hover-port + img{
+ width: 79px;
+    height: 83px;
+
+  position:absolute;
+         top: 289px;
+    left: 46px;
+    opacity: 0;
+    
+}
+
+
+.laptop-hover-port:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+/*Зарядное*/
+
+.laptop-hover-power-st{
+      width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 299px;
+    left: 3px;
+    opacity: 0;
+}
+
+
+.laptop-hover-power-st + img{
+  width: 140px;
+    height: 175px;
+
+  position:absolute;
+       top: 294px;
+    left: 10px;
+
+    opacity:0;
+
+    z-index:0;
+}
+
+
+
+
+/*Чистка*/
+
+.laptop-hover-clean{
+  width: 0px;
+    height: 0px;
+
+  position:absolute;
+  top: 89px;
+    left: 40px;
+
+
+  opacity:0;
+
+  background:red;
+  opacity:0.5;
+}
+
+
+.laptop-hover-clean + img{
+  width: 119px;
+    height: 87px;
+
+  position:absolute;
+ top: 280px;
+    left: 42px;
+
+    opacity:0;
+
+    z-index:0;
+}
+
+
+
+
+/*Порт*/
+
+
+.laptop-hover-hard-disk{
+  width: 151px;
+    height: 63px;
+    position: absolute;
+    top: 267px;
+    right: 5px;
+    z-index: 7;
+    transform: rotate(-14deg) skewX(0deg) skewY(0deg);
+
+
+}
+
+
+
+.laptop-hover-hard-disk + img{
+ width: 161px;
+    height: 75px;
+
+  position:absolute;
+  top: 267px;
+    right: -2px;
+    opacity: 0;
+    
+}
+
+
+.laptop-hover-hard-disk:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ремонт планшета*/
+
+
+
+.repair-tablet-pc-content{
+  height:540px;
+  padding-top:2px;
+  background:#eaeaea;
+
+  text-align:center;
+}
+
+
+.tablet-pc{
+  width:521px;
+  height:419px;
+  margin-top:34px;
+
+  position:relative;
+
+  background-image:url("../images/tablet-pc-main.png");
+  background-repeat:no-repeat;
+}
+
+
+
+
+
+
+/*Навигация*/
+
+
+
+
+/*Дисплей*/
+
+
+.tablet-pc-content-navigation-display{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+        top: 249px;
+    left: -199px;
+
+  color:#000;
+}
+
+
+.tablet-pc-content-navigation-display + img{
+  position:absolute;
+           top: 266px;
+    left: 161px;
+}
+
+.dot-active-tablet-pc-1{
+  position:absolute;
+        top: 266px;
+    left: 161px;
+}
+
+
+.tablet-pc-content-navigation-display .nav-after{
+  width:365px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*ПО*/
+
+.tablet-pc-content-navigation-po{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top: 150px;
+  left: -198px;
+
+  color:#000;
+}
+
+
+.tablet-pc-content-navigation-po + img{
+  position:absolute;
+        top: 187px;
+    left: 103px;
+
+    z-index:10;
+}
+
+
+.dot-active-tablet-pc-2{
+ position:absolute;
+       top: 187px;
+    left: 103px;
+    z-index:11;
+}
+
+
+.tablet-pc-content-navigation-po .nav-after{
+  width:306px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Диагностика*/
+
+.tablet-pc-content-navigation-diagnosis{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+      text-align: right;
+    position: absolute;
+    top: 221px;
+    right: -200px;
+  color:#000;
+}
+
+
+.tablet-pc-content-navigation-diagnosis + img{
+  position:absolute;
+  top: 259px;
+    right: 4px;
+
+    z-index:10;
+}
+
+
+.dot-active-tablet-pc-3{
+ position:absolute;
+    top: 259px;
+    right: 4px;
+    z-index:11;
+}
+
+
+.tablet-pc-content-navigation-diagnosis .nav-after{
+  width:209px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Наушники*/
+
+
+.tablet-pc-content-navigation-headphones{
+     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+    top: 298px;
+    right: -199px;
+    color: #000;
+}
+
+
+.tablet-pc-content-navigation-headphones + img{
+  position:absolute;
+      top: 403px;
+    right: 268px;
+}
+
+.dot-active-tablet-pc-4{
+  position:absolute;
+       top: 403px;
+    right: 268px;
+}
+
+
+.tablet-pc-content-navigation-headphones .nav-after{
+  width:414px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+
+.tablet-pc-content-navigation-headphones .nav-before{
+      width: 90px;
+    height: 1px;
+    position: absolute;
+    bottom: -35px;
+    right: 398px;
+    background: #b3b3b3;
+    transform: rotate(132deg);
+}
+
+
+
+/*Зарядное*/
+
+
+.tablet-pc-content-navigation-power-port{
+     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+    top: 364px;
+    right: -199px;
+    color: #000;
+}
+
+
+.tablet-pc-content-navigation-power-port + img{
+  position:absolute;
+      top: 403px;
+    right: 239px;
+}
+
+.dot-active-tablet-pc-5{
+  position:absolute;
+       top: 403px;
+    right: 239px;
+}
+
+
+.tablet-pc-content-navigation-power-port .nav-after{
+  width:444px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Камера*/
+
+
+.tablet-pc-content-navigation-camera{
+     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+       top: 33px;
+    right: -198px;
+    color: #000;
+}
+
+
+.tablet-pc-content-navigation-camera + img{
+  position:absolute;
+          top: 50px;
+    right: 95px;
+}
+
+.dot-active-tablet-pc-6{
+  position:absolute;
+        top: 50px;
+    right: 95px;
+}
+
+
+.tablet-pc-content-navigation-camera .nav-after{
+  width:298px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Громкость*/
+
+
+.tablet-pc-content-navigation-sound-btn{
+     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+       top: 81px;
+    left: -198px;
+    color: #000;
+}
+
+
+.tablet-pc-content-navigation-sound-btn + img{
+  position:absolute;
+   top: 120px;
+    left: 0;
+}
+
+.dot-active-tablet-pc-7{
+  position:absolute;
+   top: 120px;
+    left: 0;
+}
+
+
+.tablet-pc-content-navigation-sound-btn .nav-after{
+  width:204px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Кнопка включения*/
+
+
+.tablet-pc-content-navigation-power-btn{
+     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+       top: 26px;
+    left: -198px;
+    color: #000;
+}
+
+
+.tablet-pc-content-navigation-power-btn + img{
+  position:absolute;
+   top: 65px;
+    left: 0;
+}
+
+.dot-active-tablet-pc-8{
+  position:absolute;
+   top: 65px;
+    left: 0;
+}
+
+
+.tablet-pc-content-navigation-power-btn .nav-after{
+  width:204px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Кнопка Home*/
+
+
+.tablet-pc-content-navigation-home-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+        top: 328px;
+    left: -199px;
+
+  color:#000;
+}
+
+
+.tablet-pc-content-navigation-home-btn + img{
+  position:absolute;
+           top: 345px;
+    left: 161px;
+}
+
+.dot-active-tablet-pc-9{
+  position:absolute;
+        top: 345px;
+    left: 161px;
+}
+
+
+.tablet-pc-content-navigation-home-btn .nav-after{
+  width:365px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Динамики*/
+
+
+.tablet-pc-content-navigation-dynamics{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+        top: 384px;
+    left: -199px;
+
+  color:#000;
+}
+
+
+.tablet-pc-content-navigation-dynamics + img{
+  position:absolute;
+       top: 402px;
+    left: 205px;
+}
+
+.dot-active-tablet-pc-10{
+  position:absolute;
+       top: 402px;
+    left: 205px;
+}
+
+
+.tablet-pc-content-navigation-dynamics .nav-after{
+  width:410px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Аккумулятор*/
+
+
+.tablet-pc-content-navigation-battery{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+     top: 155px;
+    right: -199px;
+
+  color:#000;
+}
+
+
+.tablet-pc-content-navigation-battery + img{
+  position:absolute;
+     top: 173px;
+    right: 73px;
+}
+
+.dot-active-tablet-pc-11{
+  position:absolute;
+       top: 173px;
+    right: 73px;
+}
+
+
+.tablet-pc-content-navigation-battery .nav-after{
+  width:280px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Заменяемые элементы*/
+
+
+
+
+
+/*Дисплей*/
+
+
+.tablet-pc-hover-display{
+       width: 211px;
+    height: 355px;
+    position: absolute;
+    top: 15px;
+    left: 59px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-display + img{
+  width:238px;
+  height:376px;
+
+  position:absolute;
+      top: 6px;
+    left: 45px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.tablet-pc-hover-display:hover + img{
+  opacity:1;
+}
+
+
+
+/*ПО*/
+
+.tablet-pc-hover-po{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.tablet-pc-hover-po + img{
+  width: 186px;
+    height: 295px;
+    position: absolute;
+       top: 47px;
+    left: 71px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Диагностика*/
+
+.tablet-pc-hover-diagnosis{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.tablet-pc-hover-diagnosis + img{
+  width: 521px;
+    height: 419px;
+    position: absolute;
+     top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Наушники*/
+
+
+.tablet-pc-hover-headphones{
+   width:25px;
+  height:25px;
+    position: absolute;
+      top: 395px;
+    right: 262px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-headphones + img{
+  width:61px;
+  height:61px;
+
+  position:absolute;
+       top: 378px;
+    right: 244px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.tablet-pc-hover-headphones:hover + img{
+  opacity:1;
+}
+
+
+
+/*Зарядное*/
+
+
+.tablet-pc-hover-power-port{
+       width: 29px;
+    height: 23px;
+    position: absolute;
+    top: 397px;
+    right: 231px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-power-port + img{
+  width:51px;
+  height:45px;
+
+  position:absolute;
+       top: 387px;
+    right: 220px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.tablet-pc-hover-power-port:hover + img{
+  opacity:1;
+}
+
+
+
+/*Камера*/
+
+
+.tablet-pc-hover-camera3{
+  width: 12px;
+    height: 35px;
+    position: absolute;
+    top: 51px;
+    left: 10px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-camera2{
+       width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 23px;
+    left: 222px;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-camera{
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    top: 32px;
+    right: 81px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-camera + img{
+  width:445px;
+  height:80px;
+
+  position:absolute;
+     top: 15px;
+    right: 78px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.tablet-pc-hover-camera:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Громкость*/
+
+
+.tablet-pc-hover-sound-btn3{
+       width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 95px;
+    right: 193px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-sound-btn2{
+  width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 96px;
+    left: 258px;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-sound-btn{
+    width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 91px;
+    left: -1px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-sound-btn + img{
+    width: 340px;
+    height: 65px;
+    position: absolute;
+    top: 89px;
+    left: -6px;
+    opacity: 0;
+    z-index: 1;
+}
+
+
+.tablet-pc-hover-sound-btn:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Кнопка включения*/
+
+
+.tablet-pc-hover-power-btn3{
+    width: 21px;
+    height: 34px;
+    position: absolute;
+    top: 61px;
+    right: 193px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-power-btn2{
+width: 22px;
+    height: 33px;
+    position: absolute;
+    top: 63px;
+    left: 258px;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-power-btn{
+        width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 46px;
+    left: -6px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-power-btn + img{
+    width: 350px;
+    height: 57px;
+    position: absolute;
+    top: 47px;
+    left: -12px;
+    opacity: 0;
+    z-index: 1;
+}
+
+
+.tablet-pc-hover-power-btn:hover + img{
+  opacity:1;
+}
+
+
+
+/*Кнопка Home*/
+
+
+.tablet-pc-hover-home-btn{
+   width:50px;
+  height:32px;
+    position: absolute;
+  top: 336px;
+    left: 139px;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-home-btn + img{
+  width:50px;
+  height:32px;
+
+  position:absolute;
+    top: 336px;
+    left: 139px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.tablet-pc-hover-home-btn:hover + img{
+  opacity:1;
+}
+
+
+
+/*Динамики*/
+
+
+.tablet-pc-hover-dynamics{
+   width:59px;
+  height:29px;
+    position: absolute;
+  top: 392px;
+    left: 181px;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-dynamics + img{
+  width:59px;
+  height:29px;
+
+  position:absolute;
+  top: 392px;
+    left: 181px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.tablet-pc-hover-dynamics:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Аккумулятор*/
+
+
+.tablet-pc-hover-battery{
+       width: 160px;
+    height: 230px;
+    position: absolute;
+    top: 83px;
+    right: 3px;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+
+.tablet-pc-hover-battery + img{
+  width:181px;
+  height:251px;
+
+  position:absolute;
+     top: 72px;
+    right: -8px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.tablet-pc-hover-battery:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ремонт imac*/
+
+
+
+.repair-imac-content{
+  height:540px;
+  padding-top:2px;
+  background:#eaeaea;
+
+  text-align:center;
+}
+
+
+.imac{
+  width:518px;
+  height:410px;
+  margin-top: 34px;
+
+  position:relative;
+
+  background-image:url("../images/i-mac-main.png");
+  background-repeat:no-repeat;
+}
+
+
+
+
+
+
+/*Навигация*/
+
+
+/*Неисправности*/
+
+
+.imac-content-navigation-display{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+       top: 244px;
+    right: -200px;
+
+  color:#000;
+}
+
+
+.imac-content-navigation-display + img{
+  position:absolute;
+       top: 283px;
+    right: 21px;
+}
+
+.dot-active-imac-1{
+  position:absolute;
+        top: 283px;
+    right: 21px;
+}
+
+
+.imac-content-navigation-display .nav-after{
+  width:226px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Охлаждение*/
+
+.imac-content-navigation-cold-system{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+    top: 41px;
+    right: -198px;
+    color: #000;
+}
+
+
+.imac-content-navigation-cold-system + img{
+  position:absolute;
+      top: 78px;
+    right: 190px;
+
+    z-index:10;
+}
+
+
+.dot-active-imac-2{
+ position:absolute;
+       top: 78px;
+    right: 190px;
+    z-index:11;
+}
+
+
+.imac-content-navigation-cold-system .nav-after{
+  width:393px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Жесткий диск*/
+
+.imac-content-navigation-hard-disk{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    top: 109px;
+    left: -198px;
+    color: #000;
+}
+
+
+.imac-content-navigation-hard-disk + img{
+  position:absolute;
+        top: 146px;
+    left: 127px;
+    z-index:10;
+}
+
+
+.dot-active-imac-3{
+ position:absolute;
+     top: 146px;
+    left: 127px;
+    z-index:11;
+}
+
+
+.imac-content-navigation-hard-disk .nav-after{
+  width:330px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Оптический привод*/
+
+.imac-content-navigation-optic-drive{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+        top: 142px;
+    right: -198px;
+    color: #000;
+}
+
+
+.imac-content-navigation-optic-drive + img{
+  position:absolute;
+      top: 180px;
+    right: 28px;
+    z-index:10;
+}
+
+
+.dot-active-imac-4{
+ position:absolute;
+      top: 180px;
+    right: 28px;
+    z-index:11;
+}
+
+
+.imac-content-navigation-optic-drive .nav-after{
+  width:230px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Оперативная память*/
+
+.imac-content-navigation-ram{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align:left;
+    position: absolute;
+        top: 249px;
+    left: -198px;
+    color: #000;
+}
+
+
+.imac-content-navigation-ram + img{
+  position:absolute;
+    top: 287px;
+    left: 256px;
+    z-index:10;
+}
+
+
+.dot-active-imac-5{
+ position:absolute;
+         top: 287px;
+    left: 256px;
+    z-index:11;
+}
+
+
+.imac-content-navigation-ram .nav-after{
+  width:460px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+
+
+
+
+/*Заменяемые элементы*/
+
+
+
+
+
+/*Неисправности*/
+
+
+.imac-hover-display{
+ width:518px;
+  height:355px;
+    position: absolute;
+       top:0;
+    left:0;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.imac-hover-display + img{
+  width:518px;
+  height:355px;
+
+  position:absolute;
+      top:0;
+    left:0;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.imac-hover-display:hover + img{
+  opacity:1;
+}
+
+
+
+/*Охлаждение*/
+
+.imac-hover-cold-system{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.imac-hover-cold-system + img{
+  width: 521px;
+    height: 309px;
+    position: absolute;
+       top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Жесткий диск*/
+
+.imac-hover-hard-disk{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.imac-hover-hard-disk + img{
+  width: 521px;
+    height: 309px;
+    position: absolute;
+       top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Оптический привод*/
+
+.imac-hover-optic-drive{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.imac-hover-optic-drive + img{
+  width: 521px;
+    height: 309px;
+    position: absolute;
+       top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Оптический привод*/
+
+.imac-hover-ram{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.imac-hover-ram + img{
+  width: 521px;
+    height: 345px;
+    position: absolute;
+       top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MacBook*/
+
+
+.repair-macbook-content{
+  height:540px;
+  padding-top:2px;
+  background:#eaeaea;
+
+  text-align:center;
+}
+
+
+.mac-book{
+  width:523px;
+  height:395px;
+  margin-top: 34px;
+
+  position:relative;
+
+  background-image:url("../images/macbook-main.png");
+  background-repeat:no-repeat;
+}
+
+
+
+/*Навигация*/
+
+
+
+/*Дисплей*/
+
+
+.mac-book-content-navigation-display{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align:left;
+    position: absolute;
+        top: 46px;
+    left: -198px;
+    color: #000;
+}
+
+
+.mac-book-content-navigation-display + img{
+  position:absolute;
+   top: 62px;
+    left: 210px;
+
+    z-index:10;
+}
+
+
+.dot-active-mac-book-1{
+ position:absolute;
+  top: 62px;
+    left: 210px;
+
+    z-index:11;
+}
+
+
+.mac-book-content-navigation-display .nav-after{
+  width:415px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Диагностика*/
+
+
+.mac-book-content-navigation-diagnosis{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align:right;
+    position: absolute;
+        top: 31px;
+    right: -198px;
+    color: #000;
+}
+
+
+.mac-book-content-navigation-diagnosis + img{
+  position:absolute;
+      top: 69px;
+    right: 51px;
+
+    z-index:10;
+}
+
+
+.dot-active-mac-book-2{
+ position:absolute;
+     top: 69px;
+    right: 51px;
+
+    z-index:11;
+}
+
+
+.mac-book-content-navigation-diagnosis .nav-after{
+  width:254px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   right:0;
+
+  background:#b3b3b3;
+}
+
+
+/*Жесткий диск*/
+
+
+.mac-book-content-navigation-hard-disk{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align:right;
+    position: absolute;
+        top: 156px;
+    right: -198px;
+    color: #000;
+}
+
+
+.mac-book-content-navigation-hard-disk + img{
+  position:absolute;
+        top: 193px;
+    right: 230px;
+
+    z-index:10;
+}
+
+
+.dot-active-mac-book-3{
+ position:absolute;
+     top: 193px;
+    right: 230px;
+
+    z-index:11;
+}
+
+
+.mac-book-content-navigation-hard-disk .nav-after{
+  width:433px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Аккумулятор*/
+
+
+.mac-book-content-navigation-battery{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align:right;
+    position: absolute;
+         top: 282px;
+    right: -199px;
+    color: #000;
+}
+
+
+.mac-book-content-navigation-battery + img{
+  position:absolute;
+        top: 298px;
+    right: 230px;
+
+    z-index:10;
+}
+
+
+.dot-active-mac-book-4{
+ position:absolute;
+       top: 298px;
+    right: 230px;
+
+    z-index:11;
+}
+
+
+.mac-book-content-navigation-battery .nav-after{
+  width:433px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   right:0;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Охлаждение*/
+
+
+.mac-book-content-navigation-cold-system{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align:left;
+    position: absolute;
+         top: 149px;
+    left: -199px;
+    color: #000;
+}
+
+
+.mac-book-content-navigation-cold-system + img{
+  position:absolute;
+         top: 186px;
+    left: 133px;
+
+    z-index:10;
+}
+
+
+.dot-active-mac-book-5{
+ position:absolute;
+      top: 186px;
+    left: 133px;
+
+    z-index:11;
+}
+
+
+.mac-book-content-navigation-cold-system .nav-after{
+  width:337px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   left:0;
+
+  background:#b3b3b3;
+}
+
+
+
+
+
+
+/* Заменяемые элементы*/
+
+
+
+/*Экран*/
+
+
+.mac-book-hover-display{
+  width: 507px;
+    height: 213px;
+    position: absolute;
+    bottom: 385px;
+    left: 9px;
+    transform-origin: 50% 100%;
+    transform: perspective(649px) rotateX(126deg);
+    z-index: 6;
+}
+
+
+.mac-book-hover-display + img{
+  width: 463px;
+  height: 86px;
+
+  position: absolute;
+     left: 32px;
+    bottom: 290px;
+  opacity: 0; 
+}
+
+
+.mac-book-hover-display:hover + img{
+   opacity: 1;
+}
+
+
+
+
+/*Диагностика*/
+
+.mac-book-hover-diagnosis{
+ width: 403px;
+    height: 285px;
+    position: absolute;
+    top: 109px;
+    left: 61px;
+    opacity: 0;
+    z-index:1;
+}
+
+
+.mac-book-hover-diagnosis + img{
+  width: 517px;
+    height: 392px;
+    position: absolute;
+       top: 2px;
+    left: 5px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+.mac-book-hover-diagnosis:hover + img{
+  opacity:1;
+}
+
+
+
+/*Жесткий диск*/
+
+.mac-book-hover-hard-disk{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.mac-book-hover-hard-disk + img{
+  width: 398px;
+    height: 286px;
+    position: absolute;
+     top: 110px;
+    left: 63px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Аккумулятор*/
+
+.mac-book-hover-battery{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.mac-book-hover-battery + img{
+  width: 398px;
+    height: 286px;
+    position: absolute;
+     top: 110px;
+    left: 63px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Охлаждение*/
+
+.mac-book-hover-cold-system{
+   width:0;
+    height:0;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.mac-book-hover-cold-system + img{
+  width: 398px;
+    height: 286px;
+    position: absolute;
+     top: 110px;
+    left: 63px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+
+
+/*Ремонт смартфона*/
+
+
+
+.repair-smartphone-content{
+  height:580px;
+  padding-top:2px;
+  background:#eaeaea;
+
+  text-align:center;
+}
+
+
+
+.smartphone{
+  width:522px;
+  height:438px;
+  margin-top:34px;
+
+  position:relative;
+
+  background-image:url("../images/smartphone-main.png");
+  background-repeat:no-repeat;
+}
+
+
+
+/*Навигация*/
+
+
+/*Дисплей*/
+
+.smartphone-content-navigation-display{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+
+  position:absolute;
+     top: 204px;
+    left: -197px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-display + img{
+  position:absolute;
+       top: 222px;
+    left: 116px;
+}
+
+.dot-active-smartphone-1{
+  position:absolute;
+       top: 222px;
+    left: 116px;
+}
+
+
+.smartphone-content-navigation-display .nav-after{
+  width:320px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+
+
+/*Кнопка Home*/
+
+.smartphone-content-navigation-home-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+     top: 361px;
+    left: -197px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-home-btn + img{
+  position:absolute;
+      top: 400px;
+    left: 101px;
+}
+
+.dot-active-smartphone-2{
+  position:absolute;
+      top: 400px;
+    left: 101px;
+}
+
+
+.smartphone-content-navigation-home-btn .nav-after{
+  width:305px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left:-1px;
+
+  background:#b3b3b3;
+}
+
+
+
+/*Камера*/
+
+.smartphone-content-navigation-camera{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+     top: 17px;
+    right: -199px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-camera + img{
+  position:absolute;
+        top: 56px;
+    right: 99px;
+}
+
+.dot-active-smartphone-3{
+  position:absolute;
+         top: 56px;
+    right: 99px;
+}
+
+
+.smartphone-content-navigation-camera .nav-after{
+  width:305px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+      right: 0;
+
+  background:#b3b3b3;
+}
+
+
+/*Кнопка включения*/
+
+.smartphone-content-navigation-button{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+     top: 99px;
+    right: -199px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-button + img{
+  position:absolute;
+  top: 138px;
+    right: 301px;
+}
+
+.dot-active-smartphone-5{
+  position:absolute;
+     top: 138px;
+    right: 301px;
+}
+
+
+.smartphone-content-navigation-button .nav-after{
+  width:506px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+      right: 0;
+
+  background:#b3b3b3;
+}
+
+
+/*Динамики*/
+
+.smartphone-content-navigation-speaker{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+     top: 261px;
+    right: -200px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-speaker + img{
+  position:absolute;
+       top: 365px;
+    right: 175px;
+}
+
+.dot-active-smartphone-6{
+  position:absolute;
+    top: 365px;
+    right: 175px;
+}
+
+
+.smartphone-content-navigation-speaker .nav-after{
+  width:341px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right: 0;
+  background:#b3b3b3;
+}
+
+.smartphone-content-navigation-speaker .nav-before{
+        width: 95px;
+    height: 1px;
+    position: absolute;
+    bottom: -45px;
+    right: 313px;
+    background: #b3b3b3;
+    transform: rotate(295deg);
+}
+
+
+
+
+/*Аккумулятор*/
+
+.smartphone-content-navigation-battery{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+     top: 187px;
+    right: -197px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-battery + img{
+  position:absolute;
+top: 205px;
+    right: 84px;
+
+    z-index:2;
+}
+
+.dot-active-smartphone-8{
+  position:absolute;
+    top: 205px;
+    right: 84px;
+
+    z-index:2;
+}
+
+
+.smartphone-content-navigation-battery .nav-after{
+  width:288px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+      right: 0;
+  background:#b3b3b3;
+
+  z-index:2;
+}
+
+
+
+/*Микрофон*/
+
+.smartphone-content-navigation-mic{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:right;
+
+  position:absolute;
+ top: 315px;
+    right: -197px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-mic + img{
+  position:absolute;
+       top: 430px;
+    right: 72px;
+
+    z-index:2;
+}
+
+.dot-active-smartphone-9{
+  position:absolute;
+  top: 430px;
+  right: 72px;
+
+  z-index:2;
+}
+
+
+.smartphone-content-navigation-mic .nav-after{
+  width:186px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  right: -5px;
+  background:#b3b3b3;
+
+  z-index:2;
+}
+
+
+.smartphone-content-navigation-mic .nav-before{
+        width: 135px;
+    height: 1px;
+    position: absolute;
+    bottom: -51px;
+    right: 160px;
+    background: #b3b3b3;
+    transform: rotate(314deg);
+}
+
+
+
+
+/*Громкость*/
+
+.smartphone-content-navigation-sound-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+ top: 95px;
+    left: -197px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-sound-btn + img{
+  position:absolute;
+        top: 134px;
+    left: 253px;
+
+    z-index:2;
+}
+
+.dot-active-smartphone-10{
+  position:absolute;
+       top: 134px;
+    left: 253px;
+
+    z-index:2;
+}
+
+
+.smartphone-content-navigation-sound-btn .nav-after{
+  width:460px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left: -5px;
+  background:#b3b3b3;
+
+  z-index:2;
+}
+
+
+
+
+/*Наушники*/
+
+.smartphone-content-navigation-headphones{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+     top: 10px;
+    left: -199px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-headphones + img{
+  position:absolute;
+          top: 11px;
+    left: 163px;
+
+    z-index:2;
+}
+
+.dot-active-smartphone-11{
+  position:absolute;
+         top: 11px;
+    left: 163px;
+
+    z-index:2;
+}
+
+
+.smartphone-content-navigation-headphones .nav-after{
+  width:345px;
+  height:1px;
+
+  position:absolute;
+  bottom:-2px;
+  left: 0px;
+  background:#b3b3b3;
+
+  z-index:2;
+}
+
+
+.smartphone-content-navigation-headphones .nav-before{
+  width: 44px;
+    height: 1px;
+    position: absolute;
+    top: 25px;
+    left: 334px;
+    background: #b3b3b3;
+    transform: rotate(300deg);
+}
+
+
+/*ПО*/
+
+.smartphone-content-navigation-po{
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight:100;
+  text-decoration:none;
+  text-align:left;
+
+  position:absolute;
+  top:279px;
+  left: -198px;
+
+  color:#000;
+}
+
+
+.smartphone-content-navigation-po + img{
+  position:absolute;
+       top: 316px;
+    left: 96px;
+
+    z-index:10;
+}
+
+
+.dot-active-smartphone-12{
+ position:absolute;
+      top: 316px;
+    left: 96px;
+    z-index:11;
+}
+
+
+.smartphone-content-navigation-po .nav-after{
+  width:300px;
+  height:1px;
+
+  position:absolute;
+  bottom: 0px;
+   left:0;
+
+  background:#b3b3b3;
+}
+
+
+/*Порт зарядки*/
+
+.smartphone-content-navigation-power-port{
+      font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+    top: 386px;
+    right: -200px;
+    color: #000;
+}
+
+
+.smartphone-content-navigation-power-port + img{
+  position:absolute;
+ top: 430px;
+    right: 101px;
+
+    z-index:2;
+}
+
+.dot-active-smartphone-13{
+  position:absolute;
+     top: 430px;
+    right: 101px;
+
+    z-index:2;
+}
+
+
+.smartphone-content-navigation-power-port .nav-after{
+  width:306px;
+  height:1px;
+
+  position:absolute;
+  bottom:-7px;
+      right: 0;
+  background:#b3b3b3;
+
+  z-index:2;
+}
+
+
+
+
+
+
+
+
+
+
+/*Заменяемые части*/
+
+
+/*Дисплей*/
+
+.smartphone-hover-display{
+    width:192px;
+    height:335px;
+    position: absolute;
+        top: 56px;
+    left: 13px;
+
+    z-index: 6;
+
+    border-radius: 5px;
+}
+
+
+
+.smartphone-hover-display + img{
+   width:192px;
+    height:335px;
+
+  position:absolute;
+       top: 56px;
+    left: 13px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-display:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+/*Кнопка Home*/
+
+.smartphone-hover-home-btn{
+ width: 49px;
+    height: 14px;
+    position: absolute;
+    top: 401px;
+    left: 84px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+
+
+.smartphone-hover-home-btn + img{
+   width:46px;
+    height:14px;
+
+  position:absolute;
+   top: 401px;
+    left: 86px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-home-btn:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Камера*/
+
+
+.smartphone-hover-camera2{
+ width: 57px;
+    height: 11px;
+    position: absolute;
+    top: 25px;
+    right: 332px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+.smartphone-hover-camera{
+ width: 56px;
+    height: 96px;
+    position: absolute;
+    top: 29px;
+    right: 80px;
+    z-index: 7;
+    border-radius: 5px;
+}
+
+.smartphone-hover-camera + img{
+   width:297px;
+    height:86px;
+
+  position:absolute;
+   top: 25px;
+    right: 92px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-camera:hover + img{
+  opacity:1;
+}
+
+
+/*Кнопка включения*/
+
+
+.smartphone-hover-button{
+ width: 32px;
+    height: 62px;
+    position: absolute;
+    top: 103px;
+    right: 289px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+.smartphone-hover-button + img{
+   width:32px;
+    height:62px;
+
+  position:absolute;
+   top: 103px;
+    right: 289px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-button:hover + img{
+  opacity:1;
+}
+
+
+/*Динамики*/
+
+
+.smartphone-hover-speaker2{
+ width: 55px;
+    height: 37px;
+    position: absolute;
+    top: 8px;
+    right: 386px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+.smartphone-hover-speaker{
+ width: 51px;
+    height: 45px;
+    position: absolute;
+    top: 345px;
+    right: 155px;
+    z-index: 7;
+    border-radius: 5px;
+}
+
+.smartphone-hover-speaker + img{
+   width:292px;
+    height:385px;
+
+  position:absolute;
+   top: 6px;
+    right: 155px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-speaker:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Аккумулятор*/
+
+
+
+.smartphone-hover-battery{
+ width:220px;
+    height:425px;
+    position: absolute;
+       top: 13px;
+    right: -1px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+.smartphone-hover-battery + img{
+   width:220px;
+    height:425px;
+
+  position:absolute;
+      top: 13px;
+    right: -1px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-battery:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Микрофон*/
+
+
+.smartphone-hover-mic2{
+  width: 34px;
+    height: 29px;
+    position: absolute;
+        top: 415px;
+    right: 443px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+
+.smartphone-hover-mic{
+     width: 34px;
+    height: 29px;
+    position: absolute;
+    top: 420px;
+    right: 59px;
+    z-index: 7;
+    border-radius: 5px;
+}
+
+.smartphone-hover-mic + img{
+   width:429px;
+    height:53px;
+
+  position:absolute;
+       top: 405px;
+    right: 54px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-mic:hover + img{
+  opacity:1;
+}
+
+
+
+
+/*Громкость*/
+
+
+.smartphone-hover-sound-btn2{
+      width: 23px;
+    height: 84px;
+    position: absolute;
+    top: 64px;
+    left: 253px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+
+.smartphone-hover-sound-btn{
+       width: 23px;
+    height: 84px;
+    position: absolute;
+    top: 64px;
+    left: -9px;
+    z-index: 6;
+    border-radius: 5px;
+
+
+}
+
+.smartphone-hover-sound-btn + img{
+   width:305px;
+    height:106px;
+
+  position:absolute;
+        top: 52px;
+    left: -19px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-sound-btn:hover + img{
+  opacity:1;
+}
+
+
+
+/*Наушники*/
+
+
+.smartphone-hover-headphones2{
+     width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: 350px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+
+.smartphone-hover-headphones{
+     width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: 159px;
+    z-index: 6;
+    border-radius: 5px;
+
+
+}
+
+.smartphone-hover-headphones + img{
+   width:223px;
+    height:23px;
+
+  position:absolute;
+      top: 5px;
+    left: 154px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-headphones:hover + img{
+  opacity:1;
+}
+
+
+
+/*ПО*/
+
+.smartphone-hover-po{
+   width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+
+  opacity:0;
+}
+
+
+.smartphone-hover-po + img{
+  width: 193px;
+    height: 334px;
+    position: absolute;
+   top: 56px;
+    left: 13px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+
+/*Порт зарядки*/
+
+
+.smartphone-hover-power-port2{
+    width: 80px;
+    height: 15px;
+    position: absolute;
+    top: 428px;
+    right: 66px;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+
+.smartphone-hover-power-port{
+      width: 80px;
+    height: 15px;
+    position: absolute;
+       top: 422px;
+    left: 66px;
+    z-index: 6;
+    border-radius: 5px;
+
+}
+
+.smartphone-hover-power-port + img{
+   width:391px;
+    height:38px;
+
+  position:absolute;
+       top: 414px;
+    left: 67px;
+
+  opacity:0;
+
+  z-index:1;
+}
+
+
+.smartphone-hover-power-port:hover + img{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dot-active-show{
+  opacity:1 !important;
+}
+
+
+.text-hover{
+  font-weight:400 !important;
+  color:#099a48 !important;
+}
+
+
+.line-hover{
+  background:#099a48 !important;
+  height:2px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Таблица*/
+
+
+
+.price-block{
+  padding-bottom:70px;
+  margin-bottom:50px;
+
+  text-align:center;
+
+  border-bottom:1px solid rgba(88, 88, 88, 0.5);
+
+  box-shadow: 0 3px 5px -3px #000;
+}
+
+
+.price-block:last-of-type{
+  margin-bottom:0;
+}
+
+
+.price-title {
+  margin:26px 0;
+  padding:0;
+
+  font-family:"Roboto", "Arial", sans-serif;
+  font-size:36px;
+  font-weight:100;
+
+  color:#099a48;
+}
+
+
+.price-table{
+  width:350px;
+  margin-right: 166px;
+  margin-top: 84px;
+
+  float:right;
+
+  font-family:"Roboto", "Arial", sans-serif;
+
+  border-spacing:10px;
+
+}
+
+
+.price-table th{
+      padding: 5px 17px;
+
+  font-size:16px;
+
+  background:#efefef;
+  color:#18b15b;
+}
+
+
+.price-table td{
+  padding:5px 10px;
+  margin-bottom:8px;
+  margin-right:11px;
+
+  font-size:14px;
+  font-weight:normal;
+
+  background:#efefef;
+  color:#575757;
+}
+
+
+.price-table .active{
+  background:#8bcfa9;
+}
+
+
+.price-block-image{
+  width:360px;
+  height:360px;
+
+  margin-left:43px;
+
+  float:left;
+}
