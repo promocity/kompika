@@ -67,16 +67,14 @@
         <div class="review-title">
           <img src="images/review-icon.png" width="56" height="56" class="review-icon">
           <div class="review-name">
-            Дмитрий Анатольевич, <span>написал(а) 12 февраля 2015</span>
+            Шайруллин Юрий, <span>написал 29 октября 2015</span>
           </div>
           <div class="review-rating">
             Оценка <img src="images/stars.png" width="127" height="19">
           </div>
         </div>
         <p>
-        Хотела бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
-        Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
-        Помогли во всех интересующих вопросах. 
+        Сломался комп, позвонил в Компику, приехал специалист, нашёл причину, устранил всё быстро и удобно, СПС. 
         </p>
       </div>  
       </article>
@@ -86,110 +84,21 @@
         <div class="review-title">
           <img src="images/review-icon.png" width="56" height="56" class="review-icon">
           <div class="review-name">
-            Дмитрий Анатольевич, <span>написал(а) 12 февраля 2015</span>
+            Дмитрий Анатольевич, <span>написал 12 февраля 2015</span>
           </div>
           <div class="review-rating">
             Оценка <img src="images/stars.png" width="127" height="19">
           </div>
         </div>
         <p>
-        Хотела бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
-        Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
-        Помогли во всех интересующих вопросах. 
-        </p>
-      </div>  
-      </article>
-
-      <article class="review-card">
-      <div class="page-line">
-        <div class="review-title">
-          <img src="images/review-icon.png" width="56" height="56" class="review-icon">
-          <div class="review-name">
-            Дмитрий Анатольевич, <span>написал(а) 12 февраля 2015</span>
-          </div>
-          <div class="review-rating">
-            Оценка <img src="images/stars.png" width="127" height="19">
-          </div>
-        </div>
-        <p>
-        Хотела бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
-        Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
-        Помогли во всех интересующих вопросах. 
-        </p>
-      </div>  
-      </article>
-
-      <article class="review-card">
-      <div class="page-line">
-        <div class="review-title">
-          <img src="images/review-icon.png" width="56" height="56" class="review-icon">
-          <div class="review-name">
-            Дмитрий Анатольевич, <span>написал(а) 12 февраля 2015</span>
-          </div>
-          <div class="review-rating">
-            Оценка <img src="images/stars.png" width="127" height="19">
-          </div>
-        </div>
-        <p>
-        Хотела бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
-        Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
-        Помогли во всех интересующих вопросах. 
-        </p>
-      </div>  
-      </article>
-
-      <article class="review-card">
-      <div class="page-line">
-        <div class="review-title">
-          <img src="images/review-icon.png" width="56" height="56" class="review-icon">
-          <div class="review-name">
-            Дмитрий Анатольевич, <span>написал(а) 12 февраля 2015</span>
-          </div>
-          <div class="review-rating">
-            Оценка <img src="images/stars.png" width="127" height="19">
-          </div>
-        </div>
-        <p>
-        Хотела бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
-        Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
-        Помогли во всех интересующих вопросах. 
-        </p>
-      </div>  
-      </article>
-
-      <article class="review-card">
-      <div class="page-line">
-        <div class="review-title">
-          <img src="images/review-icon.png" width="56" height="56" class="review-icon">
-          <div class="review-name">
-            Дмитрий Анатольевич, <span>написал(а) 12 февраля 2015</span>
-          </div>
-          <div class="review-rating">
-            Оценка <img src="images/stars.png" width="127" height="19">
-          </div>
-        </div>
-        <p>
-        Хотела бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
-        Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
-        Помогли во всех интересующих вопросах. 
+          Хотел бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
+          Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
+          Помогли во всех интересующих вопросах. 
         </p>
       </div>  
       </article>
 
       
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
