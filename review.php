@@ -65,37 +65,130 @@
           <button type="submit" class="review-form-button hover-test">Отправить</button>
         </form>
         <div class="review-title">
-          <img src="images/review-icon.png" width="56" height="56" class="review-icon">
-          <div class="review-name">
-            Шайруллин Юрий, <span>написал 29 октября 2015</span>
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+              Воробьева Светлана, <span> написала 4 ноября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
           </div>
-          <div class="review-rating">
-            Оценка <img src="images/stars.png" width="127" height="19">
+          <p>
+            Работой сотрудника Компика Черменева Богдана Викторовича, остались довольны. 
+            Все работы были выполнены. 10 баллов. <br>Спасибо
+          </p>
+        </div>  
+      </article>
+
+
+      <article class="review-card">
+        <div class="page-line">
+          <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+              Субботина С.И. <span> написала 2 ноября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
           </div>
-        </div>
-        <p>
-        Сломался комп, позвонил в Компику, приехал специалист, нашёл причину, устранил всё быстро и удобно, СПС. 
-        </p>
-      </div>  
+          <p>
+            Большое спасибо. Очень грамотный специалист. 
+            Понравилась четкость и пунктуальность в работе. 
+            Буду советовать вашу фирму.
+          </p>
+        </div>  
       </article>
 
       <article class="review-card">
-      <div class="page-line">
-        <div class="review-title">
-          <img src="images/review-icon.png" width="56" height="56" class="review-icon">
-          <div class="review-name">
-            Дмитрий Анатольевич, <span>написал 12 февраля 2015</span>
+        <div class="page-line">
+          <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+              Ильясова Елена Аркадьевна, <span> написала 31 октября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
           </div>
-          <div class="review-rating">
-            Оценка <img src="images/stars.png" width="127" height="19">
+          <p>
+            Вызвала мастера отключался компьютер, молодец, пришёл все сделал, я довольна. 
+          </p>
+        </div>  
+      </article>
+
+      <article class="review-card">
+        <div class="page-line">
+          <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+              Шайруллин Юрий, <span> написал 29 октября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
           </div>
-        </div>
-        <p>
-          Хотел бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
-          Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
-          Помогли во всех интересующих вопросах. 
-        </p>
-      </div>  
+          <p>
+            Сломался комп, позвонил в Компику, приехал специалист, нашел причину, устранил всё быстро и удобно, СПС. 
+          </p>
+        </div>  
+      </article>
+
+      <article class="review-card">
+        <div class="page-line">
+          <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+              Христина, <span> написала 22 октября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
+          </div>
+          <p>
+            Специалист приехал вовремя, как договорились. 
+            Учел все наши пожелания по ремонту компьютера. 
+            Отремонтировал, сделал настройку компьютеров. 
+            делал качественно. Претензий нет. 
+            Надеемся на дальнейшее сотрудничество.
+          </p>
+        </div>  
+      </article>
+
+      <article class="review-card">
+        <div class="page-line">
+          <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+              Ксения, <span> написала 19 октября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
+          </div>
+          <p>
+            Все отлично. Если советовать, то именно эту компанию!
+          </p>
+        </div>  
+      </article>
+
+      <article class="review-card">
+        <div class="page-line">
+          <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+              Дмитрий Анатольевич, <span> написал 12 февраля 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
+          </div>
+          <p>
+            Хотел бы выразить благодарность вашим сотрудникам доставки Бородулин Сергей Викторович, 
+            Гридин Алексей Сергеевич. Сотрудники очень внимательные, добросовестные, пунктуальные.
+            Помогли во всех интересующих вопросах. 
+          </p>
+        </div>  
       </article>
 
       
