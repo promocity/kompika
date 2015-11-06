@@ -228,7 +228,7 @@
       <section class="vacancy-contacts"> 
         <div class="vacancy-contacts-number">
           <div class="vacancy-contacts-title">Звоните</div>
-          <p>+7 (343) <span>265 65 65</span></p>
+          <p>+7 (343) <span>288-76-08</span></p>
         </div>
         <div class="vacancy-contacts-email">
           <div class="vacancy-contacts-title">Пишите</div>
