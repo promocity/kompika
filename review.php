@@ -64,7 +64,48 @@
           <textarea name="review" id="review"></textarea>
           <button type="submit" class="review-form-button hover-test">Отправить</button>
         </form>
+
         <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+             Андрей, <span> написал 7 ноября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
+          </div>
+          <p>
+            Работу оцениваю на 5+ .
+          </p>
+        
+        </div>  
+      </article>
+
+
+      <article class="review-card">
+        <div class="page-line">
+          <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+             Ивчинков Виталий Валерьевич, <span> написал 6 ноября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
+          </div>
+          <p>
+            Всё было сделано оперативно и качественно. 
+            Проблема полностью устранена.
+            Получена дополнительная консультация
+            по пользованию ПК. Спасибо!
+          </p>
+        </div>  
+      </article>
+
+  
+      <article class="review-card">
+        <div class="page-line">
+          <div class="review-title">
             <img src="images/review-icon.png" width="56" height="56" class="review-icon">
             <div class="review-name">
               Воробьева Светлана, <span> написала 4 ноября 2015</span>
@@ -76,6 +117,24 @@
           <p>
             Работой сотрудника Компика Черменева Богдана Викторовича, остались довольны. 
             Все работы были выполнены. 10 баллов. <br>Спасибо
+          </p>
+        </div>  
+      </article>
+
+
+      <article class="review-card">
+        <div class="page-line">
+          <div class="review-title">
+            <img src="images/review-icon.png" width="56" height="56" class="review-icon">
+            <div class="review-name">
+              Шарунов Александр, <span> написал 4 ноября 2015</span>
+            </div>
+            <div class="review-rating">
+              Оценка <img src="images/stars.png" width="127" height="19">
+            </div>
+          </div>
+          <p>
+            Всё грамотно. Понравилось.
           </p>
         </div>  
       </article>

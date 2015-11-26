@@ -256,7 +256,7 @@
          <a href="#smartphone-power-port" class="smartphone-hover-power-port2"></a>
         <a href="#smartphone-power-port" class="smartphone-hover-power-port"></a>
         <img src="images/smartphone-hover-power-port.png" width="391" height="38" alt="smartphone-hover-power-port">
-
+      </div>
     </section>
 
 
